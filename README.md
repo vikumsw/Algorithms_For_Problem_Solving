@@ -15,5 +15,10 @@ Programming Challenges and Solutions for Fun
 
 #### Solutions :
   * [CounttheIslands.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/Solutions/CounttheIslands.py)
-
+---
+### String of Parentheses
+#### Challenge : 
+  Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
+#### Solutions :
+  * [StringofParentheses.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/Solutions/StringofParentheses.py)
 ---
