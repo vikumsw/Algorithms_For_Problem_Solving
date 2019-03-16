@@ -1,5 +1,5 @@
 # Algorithms_For_Problem_Solving
-This Repository Contains Solutions for Few Programming Problems I tried for Fun.
+Programming Challenges and Solutions for Fun
 
 ---
 ### Count the Islands
@@ -13,5 +13,7 @@ This Repository Contains Solutions for Few Programming Problems I tried for Fun.
   1 1 0 0 1  
   1 1 0 0 1
 
-#### Solution : [Click Here for Solution](https://www.google.com)
-  ---
+#### Solutions :
+  * [CounttheIslands.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/Solutions/CounttheIslands.py)
+
+---
