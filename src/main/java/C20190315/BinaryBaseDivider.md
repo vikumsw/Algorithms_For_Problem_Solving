@@ -1,7 +1,7 @@
-#Binary Based Divider
-###Problem
+# Binary Based Divider
+### Problem
 Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
-###Solution
+### Solution
 Lets take,  
 N as numerator  
 D as denominator  
@@ -33,18 +33,18 @@ So dividing logic is based on dissecting numerator into terms of
 D2<sup>0</sup>, D2<sup>1</sup>, D2<sup>2</sup>, ... ,D2<sup>n</sup>  
 5,10,20,...,5*2<sup>n</sup>
 
-###Algorithm by example
+### Algorithm by example
 
 ||||
 |---|---|---|
 |numerator   | 57 | 0011 1001b|  
 |denominator | 5  | 0000 0101b|
 
-####Identifying largest term
+#### Identifying largest term
 For denominator 5 terms are 5, 10, 20, 40, 80, 160  
 For numerator 57 largest term is 40 = 5*2^3
 
-#####Position of most significant bit
+##### Position of most significant bit
 57 -> 6  
 5 -> 3  
 Largest term,  
@@ -52,7 +52,7 @@ denominator\*2^(msbPos(numerator) - msbPos(denominator))
 5\*2^(6 - 3)  
 5\*2^3 = 40
 
-####Implementation
+#### Implementation
 Implementation is based on few variables which are initialized as below
 
 |Variable|Initialized with|
@@ -62,7 +62,7 @@ Implementation is based on few variables which are initialized as below
 |iterateCount |most significant bit position difference|
 |term | largest possible denominator based term
 
-####Iteration example
+#### Iteration example
 |iterateCount|remaining|term|calc|result|
 ---|---|---|---|---
 3|57|40|40***1** + 17|000 **1**b
