@@ -8,24 +8,23 @@ public class BinaryBasedDivider {
         int denominatorBits = getMostSetBit(denominator);
         int numeratorBits = getMostSetBit(numerator);
 
-        //if denominator has more bits than numerator then
-        //denominator > numerator.
-        if(numeratorBits < denominatorBits) return 0;
-
         int diffBits =  numeratorBits - denominatorBits;
-        int partDivider = denominator << diffBits;
 
-        int out = 0;
-        while (diffBits-- >= 0){
-            out <<= 1;
-            if(numerator >= partDivider){
-                out |= 1;
-                numerator -= partDivider;
+        int remaining = numerator;
+        int result = 0;
+        int iterateCount = diffBits;
+        int term = denominator << diffBits;
+
+        while (iterateCount-- >= 0){
+            result <<= 1;
+            if(remaining >= term){
+                result |= 1;
+                remaining -= term;
             }
-            partDivider >>= 1;
+            term >>= 1;
         }
 
-        return out;
+        return result;
     }
 
     private static int getMostSetBit(int value){
@@ -41,9 +40,9 @@ public class BinaryBasedDivider {
 
     @Test
     public void testDivide(){
-        Assert.assertEquals(0, divide(2, 4));
-        Assert.assertEquals(1, divide(5, 4));
-        Assert.assertEquals(669, divide(2678, 4));
-        Assert.assertEquals(66, divide(200, 3));
+        Assert.assertEquals(divide(2, 4), 0);
+        Assert.assertEquals(divide(5, 4), 1);
+        Assert.assertEquals(divide(2678, 4), 669);
+        Assert.assertEquals(divide(200, 3), 66);
     }
 }
