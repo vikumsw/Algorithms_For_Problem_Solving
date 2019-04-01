@@ -1,7 +1,7 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Jan22MakePalindrome {
+public class PalindromeMaker {
 
     private static String MakePalindrome(String input) {
 
@@ -29,7 +29,6 @@ public class Jan22MakePalindrome {
     private static Boolean IsPalindrome(String input){
         return input.equals(new StringBuilder(input).reverse().toString());
     }
-
 
     @Test
     public void testMakePalindrome(){
