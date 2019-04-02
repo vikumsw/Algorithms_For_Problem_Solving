@@ -1,5 +1,3 @@
-package C20190315;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
