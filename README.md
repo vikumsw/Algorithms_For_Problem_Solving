@@ -22,7 +22,6 @@ Programming Challenges and Solutions for Fun
 #### Solutions :
   * [StringofParentheses.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/Solutions/StringofParentheses.py)
 ---
----
 ### Minimum Coins 
 #### Challenge : 
 Find the minimum number of coins required to make n cents.
@@ -30,4 +29,10 @@ Find the minimum number of coins required to make n cents.
 You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
 #### Solutions :
   * [MinCoins.java](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/java/MinCoins.java)
+---
+### FindSquare 
+#### Challenge : 
+Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
+#### Solutions :
+  * [FindSquare.java](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/java/FindSquare.java)
 ---
