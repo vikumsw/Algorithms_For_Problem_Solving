@@ -122,4 +122,5 @@ public class FindSquare {
 
         Assert.assertEquals(findSquare(data, 5, 5), 0);
     }
+
 }
