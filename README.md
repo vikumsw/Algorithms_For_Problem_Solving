@@ -1,8 +1,8 @@
 # Algorithms_For_Problem_Solving
 Programming Challenges and Solutions for Fun
 
-### 1.[Count the Islands](#CountTheIslands)
-### 2.[String of Parentheses](#StringofParentheses)
+##### 1.[Count the Islands](#CountTheIslands)
+##### 2.[String of Parentheses](#StringofParentheses)
 
 ---
 ### Count the Islands<a name="CountTheIslands"></a>
@@ -51,4 +51,11 @@ push(item), which adds a new key to the heap
 pop(), which removes and returns the max value of the heap
 #### Solutions :
   * [StackFromHeap.java](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/java/StackFromHeap.java)
+---
+### Can you make a palindrome from a given string
+#### Challenge :
+Given a string, determine whether any permutation of it is a palindrome.
+For example, carrace should return true, since it can be rearranged to form racecar, which is a palindrome. daily should return false, since there's no rearrangement that can form a palindrome.
+#### Solutions :
+  * [CanMakePalindrome.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/CanMakePalindrome.py)
 ---
