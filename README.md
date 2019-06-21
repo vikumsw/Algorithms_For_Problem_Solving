@@ -59,3 +59,22 @@ For example, carrace should return true, since it can be rearranged to form race
 #### Solutions :
   * [CanMakePalindrome.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/CanMakePalindrome.py)
 ---
+### Intersect Area of two Rectangles
+#### Challenge :
+Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return 0.
+For example, given the following rectangles:  
+```
+{  
+    "top_left": (1, 4),  
+    "dimensions": (3, 3) # width, height  
+}  
+and  
+{  
+    "top_left": (0, 5),  
+    "dimensions": (4, 3) # width, height  
+}  
+return 6. 
+``` 
+#### Solutions :
+  * [RectangleIntersection.java](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/java/RectangleIntersection.java)
+---
