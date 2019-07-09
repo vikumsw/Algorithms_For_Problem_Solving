@@ -78,3 +78,11 @@ return 6.
 #### Solutions :
   * [RectangleIntersection.java](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/java/RectangleIntersection.java)
 ---
+### Integer Palindrome Checker
+#### Challenge :
+Write a program that checks the given integer is a palindrome. For a example, 
+121, 888 are palindromes. 678 is not a palindrome.
+Do not convert the integer into a string.
+#### Solutions :
+  * [IntegerPalindrome.java](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/java/IntegerPalindrome.java)
+---
