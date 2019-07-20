@@ -26,7 +26,7 @@ class Test(unittest.TestCase):
     def test8(self):
         self.assertEqual(find_min([8]), 8)
 
-        
+
 def find_min(data):
     if len(data) == 0:
         return 0
@@ -49,3 +49,7 @@ def f_min(data, start, end):
         return f_min(data, mid, end)
     else:
         return f_min(data, start, mid)
+
+
+if __name__ == '__main__':
+    unittest.main()
