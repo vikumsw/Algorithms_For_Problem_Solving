@@ -1,8 +1,11 @@
 # Algorithms_For_Problem_Solving
 Programming Challenges and Solutions for Fun
 
-##### 1.[Count the Islands](#CountTheIslands)
-##### 2.[String of Parentheses](#StringofParentheses)
+|[Count the Islands](#CountTheIslands)|[String of Parentheses](#StringofParentheses)|[Minimum Coins](#Minimum_Coins)|[]()|[]()|
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 
 ---
 ### Count the Islands<a name="CountTheIslands"></a>
@@ -25,7 +28,7 @@ Programming Challenges and Solutions for Fun
 #### Solutions :
   * [StringofParentheses.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/Solutions/StringofParentheses.py)
 ---
-### Minimum Coins 
+### Minimum Coins<a name="Minimum_Coins"></a>
 #### Challenge : 
 Find the minimum number of coins required to make n cents.
 
