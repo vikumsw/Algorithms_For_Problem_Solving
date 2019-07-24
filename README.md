@@ -2,10 +2,10 @@
 Programming Challenges and Solutions for Fun
 
 |   |   |   |   |
-|---|---|---|---|
+|:---:|:---:|:---:|:---:|
 |[Count the Islands](#CountTheIslands)|[String of Parentheses](#StringofParentheses)|[Minimum Coins](#Minimum_Coins)|[FindSquare](#FindSquare)|
-|[Can you make a palindrome from a given string](#Canyoumakeapalindromefromagivenstring)|[Intersect Area of two Rectangles](#IntersectAreaoftwoRectangles)|[Integer Palindrome Checker](#IntegerPalindromeChecker)|[Stack Using Heap](#StackUsingHeap)|
-|[smallest Sparse Number](#smallestSparseNumber)|   |   |   |
+|[Can you make a palindrome from a given string](#Canyoumakeapalindromefromagivenstring)|[Intersect Area of two Rectangles](#IntersectAreaoftwoRectangles)|[Integer Palindrome Checker](#IntegerPalindromeChecker)| [Stack Using Heap](#StackUsingHeap) |
+|[Smallest Sparse Number](#smallestSparseNumber)|  - | -   |  - |
 
 ---
 ### Count the Islands<a name="CountTheIslands"></a>
