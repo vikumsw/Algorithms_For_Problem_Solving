@@ -5,8 +5,16 @@ Programming Challenges and Solutions for Fun
 |:---:|:---:|:---:|:---:|
 |[Count the Islands](#CountTheIslands)|[String of Parentheses](#StringofParentheses)|[Minimum Coins](#Minimum_Coins)|[FindSquare](#FindSquare)|
 |[Can you make a palindrome from a given string](#Canyoumakeapalindromefromagivenstring)|[Intersect Area of two Rectangles](#IntersectAreaoftwoRectangles)|[Integer Palindrome Checker](#IntegerPalindromeChecker)| [Stack Using Heap](#StackUsingHeap) |
-|[Smallest Sparse Number](#smallestSparseNumber)|  - | -   |  - |
+|[Smallest Sparse Number](#smallestSparseNumber)|  [N<sup>th</sup> Sevenish Number](#Nthsevenishnumber) | -   |  - |
 
+---
+### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
+#### Challenge : 
+Let's define a "sevenish" number to be one which is either a power of 7, or the sum of unique powers of 7. The first few sevenish numbers are 1, 7, 8, 49, and so on. Create an algorithm to find the nth sevenish number.
+
+#### Solutions :
+  * [NthSevenish.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/NthSevenish.py)
+  
 ---
 ### Count the Islands<a name="CountTheIslands"></a>
 #### Challenge : 
