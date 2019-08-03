@@ -26,9 +26,9 @@ class DNode:
         self.children_map = {}
         self.children_list = []
 
-    def add(self, data, index=-1):
-        if len(data) > index + 1:
-            child_key = data[index + 1]
+    def add(self, data, index=0):
+        if len(data) > index:
+            child_key = data[index]
             if child_key in self.children_map:
                 nd = self.children_list[self.children_map[child_key]]
             else:
@@ -37,9 +37,6 @@ class DNode:
                 self.children_list.append(nd)
 
             nd.add(data, index + 1)
-
-    def child_value(self, index):
-        return self.children_list[index].value
 
     def generate_resolve_tree(self, tree):
         lst = self.children_list
