@@ -105,5 +105,9 @@ Do this in faster than O(N log N) time.
 #### Solutions :
   * [smallestSparseNumber.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/smallestSparseNumber.py)
 ---
-
-
+### Sherlock and Anagrams<a name="Sherlock_and_Anagrams"></a>
+#### Challenge :
+[Read the problem in Hacker Rank](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem)
+#### Solutions :
+  * [sherlock-and-anagrams.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C%2B%2B/sherlock-and-anagrams.cpp)
+---
