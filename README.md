@@ -6,7 +6,7 @@ Programming Challenges and Solutions for Fun
 |[Count the Islands](#CountTheIslands)|[String of Parentheses](#StringofParentheses)|[Minimum Coins](#Minimum_Coins)|[FindSquare](#FindSquare)|
 |[Can you make a palindrome from a given string](#Canyoumakeapalindromefromagivenstring)|[Intersect Area of two Rectangles](#IntersectAreaoftwoRectangles)|[Integer Palindrome Checker](#IntegerPalindromeChecker)| [Stack Using Heap](#StackUsingHeap) |
 |[Smallest Sparse Number](#smallestSparseNumber)|  [N<sup>th</sup> Sevenish Number](#Nthsevenishnumber)|[Max & Min](#Max_&_Min)|[Maximum Subarray Sum of a Circular Array](#Maximum_Subarray_Sum_of_a_Circular_Array) |
-|[Sherlock and Anagrams](#Sherlock_and_Anagrams)| -  | -  |  - |
+|[Sherlock and Anagrams](#Sherlock_and_Anagrams)|[Hash Tables: Ransom Note](#Hash_Tables_Ransom_Note)| -  |  - |
 
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -126,38 +126,47 @@ Given [-4, 5, 1, 0], return 6 as we choose the numbers 5 and 1.
 #### Solutions :
   * [LargestSubArray.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/LargestSubArray.py)
 ---
-### Hash Tables: Ransom Note<a name="Hash_Tables:_Ransom_Note"></a>
+### Hash Tables: Ransom Note<a name="Hash_Tables_Ransom_Note"></a>
 #### Challenge :
 Harold is a kidnapper who wrote a ransom note, but now he is worried it will be traced back to him through his handwriting. He found a magazine and wants to know if he can cut out whole words from it and use them to create an untraceable replica of his ransom note. The words in his note are case-sensitive and he must use only whole words available in the magazine. He cannot use substrings or concatenation to create the words he needs.
 
 Given the words in the magazine and the words in the ransom note, print Yes if he can replicate his ransom note exactly using whole words from the magazine; otherwise, print No.
 
-For example, the note is "Attack at dawn". The magazine contains only "attack at dawn". The magazine has all the right words, but there's a case mismatch. The answer is "No".
+For example, the note is "Attack at dawn". The magazine contains only "attack at dawn". The magazine has all the right words, but there's a case mismatch. The answer is "No".  
 [Read the problem in Hacker Rank](https://www.hackerrank.com/challenges/ctci-ransom-note/problem)
 #### Solutions :
   * [ctci-ransom-note.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C%2B%2B/ctci-ransom-note.cpp)
 ---
-### Problem<a name="Sherlock_and_Anagrams"></a>
+### Minimum Swaps 2<a name="Minimum_Swaps_2"></a>
 #### Challenge :
-[Read the problem in Hacker Rank](link)
+You are given an unordered array consisting of consecutive integers [1, 2, 3, ..., n] without any duplicates. You are allowed to swap any two elements. You need to find the minimum number of swaps required to sort the array in ascending order.  
+[Read the problem in Hacker Rank](https://www.hackerrank.com/challenges/minimum-swaps-2/problem)
 #### Solutions :
   * [sherlockanagrams.cpp](link)
 ---
-### Problem<a name="Sherlock_and_Anagrams"></a>
+### New Year Chaos<a name="New_Year_Chaos"></a>
 #### Challenge :
-[Read the problem in Hacker Rank](link)
+It's New Year's Day and everyone's in line for the Wonderland rollercoaster ride! There are a number of people queued up, and each person wears a sticker indicating their initial position in the queue. Initial positions increment by 1 from 1 at the front of the line to  at the back.
+
+Any person in the queue can bribe the person directly in front of them to swap positions. If two people swap positions, they still wear the same sticker denoting their original places in line. One person can bribe at most two others. For example, if n=8 and person 5 bribes person 4, the queue will look like this: 1,2,3,5,4,6,7,8.
+
+Fascinated by this chaotic queue, you decide you must know the minimum number of bribes that took place to get the queue into its current state!  
+[Read the problem in Hacker Rank](https://www.hackerrank.com/challenges/new-year-chaos/problem)
 #### Solutions :
   * [sherlockanagrams.cpp](link)
 ---
-### Problem<a name="Sherlock_and_Anagrams"></a>
+### Two Strings<a name="Two_Strings"></a>
 #### Challenge :
-[Read the problem in Hacker Rank](link)
+Given two strings, determine if they share a common substring. A substring may be as small as one character.
+For example, the words "a", "and", "art" share the common substring "a". The words "be" and "cat" do not share a substring.  
+[Read the problem in Hacker Rank](https://www.hackerrank.com/challenges/two-strings/problem)
 #### Solutions :
   * [sherlockanagrams.cpp](link)
 ---
-### Problem<a name="Sherlock_and_Anagrams"></a>
+### Array Manipulation<a name="Array_Manipulation"></a>
 #### Challenge :
-[Read the problem in Hacker Rank](link)
+Starting with a 1-indexed array of zeros and a list of operations, for each operation add a value to each of the array element between two given indices, inclusive. Once all operations have been performed, return the maximum value in your array.  
+[Read the problem in Hacker Rank](https://www.hackerrank.com/challenges/crush/problem)
 #### Solutions :
   * [sherlockanagrams.cpp](link)
 ---
