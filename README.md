@@ -6,7 +6,8 @@ Programming Challenges and Solutions for Fun
 |[Count the Islands](#CountTheIslands)|[String of Parentheses](#StringofParentheses)|[Minimum Coins](#Minimum_Coins)|[FindSquare](#FindSquare)|
 |[Can you make a palindrome from a given string](#Canyoumakeapalindromefromagivenstring)|[Intersect Area of two Rectangles](#IntersectAreaoftwoRectangles)|[Integer Palindrome Checker](#IntegerPalindromeChecker)| [Stack Using Heap](#StackUsingHeap) |
 |[Smallest Sparse Number](#smallestSparseNumber)|  [N<sup>th</sup> Sevenish Number](#Nthsevenishnumber)|[Max & Min](#Max_&_Min)|[Maximum Subarray Sum of a Circular Array](#Maximum_Subarray_Sum_of_a_Circular_Array) |
-|[Sherlock and Anagrams](#Sherlock_and_Anagrams)|[Hash Tables: Ransom Note](#Hash_Tables_Ransom_Note)| -  |  - |
+|[Sherlock and Anagrams](#Sherlock_and_Anagrams)|[Hash Tables: Ransom Note](#Hash_Tables_Ransom_Note)|[Minimum Swaps 2](#Minimum_Swaps_2)|[New Year Chaos](#New_Year_Chaos)|
+|[Two Strings](#Two_Strings)|[Array Manipulation](#Array_Manipulation)|-|-|
 
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -142,7 +143,7 @@ For example, the note is "Attack at dawn". The magazine contains only "attack at
 You are given an unordered array consisting of consecutive integers [1, 2, 3, ..., n] without any duplicates. You are allowed to swap any two elements. You need to find the minimum number of swaps required to sort the array in ascending order.  
 [Read the problem in Hacker Rank](https://www.hackerrank.com/challenges/minimum-swaps-2/problem)
 #### Solutions :
-  * [sherlockanagrams.cpp](link)
+  * [minimum-swaps-2.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C%2B%2B/minimum-swaps-2.cpp)
 ---
 ### New Year Chaos<a name="New_Year_Chaos"></a>
 #### Challenge :
@@ -153,7 +154,7 @@ Any person in the queue can bribe the person directly in front of them to swap p
 Fascinated by this chaotic queue, you decide you must know the minimum number of bribes that took place to get the queue into its current state!  
 [Read the problem in Hacker Rank](https://www.hackerrank.com/challenges/new-year-chaos/problem)
 #### Solutions :
-  * [sherlockanagrams.cpp](link)
+  * [NewYearChaos.java](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/java/NewYearChaos.java)
 ---
 ### Two Strings<a name="Two_Strings"></a>
 #### Challenge :
@@ -161,12 +162,12 @@ Given two strings, determine if they share a common substring. A substring may b
 For example, the words "a", "and", "art" share the common substring "a". The words "be" and "cat" do not share a substring.  
 [Read the problem in Hacker Rank](https://www.hackerrank.com/challenges/two-strings/problem)
 #### Solutions :
-  * [sherlockanagrams.cpp](link)
+  * [TwoStrings.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C%2B%2B/TwoStrings.cpp)
 ---
 ### Array Manipulation<a name="Array_Manipulation"></a>
 #### Challenge :
 Starting with a 1-indexed array of zeros and a list of operations, for each operation add a value to each of the array element between two given indices, inclusive. Once all operations have been performed, return the maximum value in your array.  
 [Read the problem in Hacker Rank](https://www.hackerrank.com/challenges/crush/problem)
 #### Solutions :
-  * [sherlockanagrams.cpp](link)
+  * [Array Manipulation.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C%2B%2B/Array%20Manipulation.cpp)
 ---
