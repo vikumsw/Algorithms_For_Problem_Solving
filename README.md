@@ -5,7 +5,8 @@ Programming Challenges and Solutions for Fun
 |:---:|:---:|:---:|:---:|
 |[Count the Islands](#CountTheIslands)|[String of Parentheses](#StringofParentheses)|[Minimum Coins](#Minimum_Coins)|[FindSquare](#FindSquare)|
 |[Can you make a palindrome from a given string](#Canyoumakeapalindromefromagivenstring)|[Intersect Area of two Rectangles](#IntersectAreaoftwoRectangles)|[Integer Palindrome Checker](#IntegerPalindromeChecker)| [Stack Using Heap](#StackUsingHeap) |
-|[Smallest Sparse Number](#smallestSparseNumber)|  [N<sup>th</sup> Sevenish Number](#Nthsevenishnumber) | -   |  - |
+|[Smallest Sparse Number](#smallestSparseNumber)|  [N<sup>th</sup> Sevenish Number](#Nthsevenishnumber)|[Max & Min](#Max_&_Min)|[Maximum Subarray Sum of a Circular Array](#Maximum_Subarray_Sum_of_a_Circular_Array) |
+|[Sherlock and Anagrams](#Sherlock_and_Anagrams)| -  | -  |  - |
 
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -105,5 +106,24 @@ Do this in faster than O(N log N) time.
 #### Solutions :
   * [smallestSparseNumber.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/smallestSparseNumber.py)
 ---
-
+### Sherlock and Anagrams<a name="Sherlock_and_Anagrams"></a>
+#### Challenge :
+[Read the problem in Hacker Rank](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem)
+#### Solutions :
+  * [sherlock-and-anagrams.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C%2B%2B/sherlock-and-anagrams.cpp)
+---
+### Max & Min<a name="Max_&_Min"></a>
+#### Challenge :
+Given an array of numbers of length N, find both the minimum and maximum using less than 2 * (N - 2) comparisons.
+#### Solutions :
+  * [maxMinFind235.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/maxMinFind235.py)
+---
+### Maximum Subarray Sum of a Circular Array<a name="Maximum_Subarray_Sum_of_a_Circular_Array"></a>
+#### Challenge :
+Given a circular array, compute its maximum subarray sum in O(n) time. A subarray can be empty, and in this case the sum is 0.
+For example, given [8, -1, 3, 4], return 15 as we choose the numbers 3, 4, and 8 where the 8 is obtained from wrapping around.
+Given [-4, 5, 1, 0], return 6 as we choose the numbers 5 and 1.
+#### Solutions :
+  * [LargestSubArray.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/LargestSubArray.py)
+---
 
