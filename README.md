@@ -7,7 +7,7 @@ Programming Challenges and Solutions for Fun
 |[Can you make a palindrome from a given string](#Canyoumakeapalindromefromagivenstring)|[Intersect Area of two Rectangles](#IntersectAreaoftwoRectangles)|[Integer Palindrome Checker](#IntegerPalindromeChecker)| [Stack Using Heap](#StackUsingHeap) |
 |[Smallest Sparse Number](#smallestSparseNumber)|  [N<sup>th</sup> Sevenish Number](#Nthsevenishnumber)|[Max & Min](#Max_&_Min)|[Maximum Subarray Sum of a Circular Array](#Maximum_Subarray_Sum_of_a_Circular_Array) |
 |[Sherlock and Anagrams](#Sherlock_and_Anagrams)|[Hash Tables: Ransom Note](#Hash_Tables_Ransom_Note)|[Minimum Swaps 2](#Minimum_Swaps_2)|[New Year Chaos](#New_Year_Chaos)|
-|[Two Strings](#Two_Strings)|[Array Manipulation](#Array_Manipulation)|-|-|
+|[Two Strings](#Two_Strings)|[Array Manipulation](#Array_Manipulation)|[Super Palindromes](Super_Palindromes)|-|
 
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -170,4 +170,11 @@ Starting with a 1-indexed array of zeros and a list of operations, for each oper
 [Read the problem in Hacker Rank](https://www.hackerrank.com/challenges/crush/problem)
 #### Solutions :
   * [Array Manipulation.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C%2B%2B/Array%20Manipulation.cpp)
+---
+### Super Palindromes<a name="Super_Palindromes"></a>
+#### Challenge :
+Let's say a positive integer is a superpalindrome if it is a palindrome, and it is also the square of a palindrome.
+Now, given two positive integers L and R, return the number of superpalindromes in the inclusive range [L,R]
+#### Solutions :
+  * [SuperPalindrome.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/SuperPalindrome.py)
 ---
