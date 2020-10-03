@@ -7,7 +7,7 @@ Programming Challenges and Solutions for Fun
 |[Can you make a palindrome from a given string](#Canyoumakeapalindromefromagivenstring)|[Intersect Area of two Rectangles](#IntersectAreaoftwoRectangles)|[Integer Palindrome Checker](#IntegerPalindromeChecker)| [Stack Using Heap](#StackUsingHeap) |
 |[Smallest Sparse Number](#smallestSparseNumber)|  [N<sup>th</sup> Sevenish Number](#Nthsevenishnumber)|[Max & Min](#Max_&_Min)|[Maximum Subarray Sum of a Circular Array](#Maximum_Subarray_Sum_of_a_Circular_Array) |
 |[Sherlock and Anagrams](#Sherlock_and_Anagrams)|[Hash Tables: Ransom Note](#Hash_Tables_Ransom_Note)|[Minimum Swaps 2](#Minimum_Swaps_2)|[New Year Chaos](#New_Year_Chaos)|
-|[Two Strings](#Two_Strings)|[Array Manipulation](#Array_Manipulation)|[Super Palindromes](Super_Palindromes)|-|
+|[Two Strings](#Two_Strings)|[Array Manipulation](#Array_Manipulation)|[Super Palindromes](Super_Palindromes)|[Moving Robot](Moving_Robot)|
 
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -177,4 +177,17 @@ Let's say a positive integer is a superpalindrome if it is a palindrome, and it 
 Now, given two positive integers L and R, return the number of superpalindromes in the inclusive range [L,R]
 #### Solutions :
   * [SuperPalindrome.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/SuperPalindrome.py)
+---
+### Moving Robot<a name="Moving_Robot"></a>
+#### Challenge :
+On a infinite plane, a robot initially stands at (0,0) and faces north. The robot can recieve one of three insructions:
+'G': go straight 1 unit  
+'L': turn 90 degrees to the left    
+'R': turn 90 degrees to the right  
+The robot performs the instructions given in order, and repeats them forever.  
+return true if there exists a circle, in the plane such that the robot never leaves the circle.   
+Input: "GGLLGG"  
+Ouput: true  
+#### Solutions :
+  * [IsLooping.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/IsLooping.py)
 ---
