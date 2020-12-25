@@ -8,6 +8,7 @@ Programming Challenges and Solutions for Fun
 |[Smallest Sparse Number](#smallestSparseNumber)|  [N<sup>th</sup> Sevenish Number](#Nthsevenishnumber)|[Max & Min](#Max_&_Min)|[Maximum Subarray Sum of a Circular Array](#Maximum_Subarray_Sum_of_a_Circular_Array) |
 |[Sherlock and Anagrams](#Sherlock_and_Anagrams)|[Hash Tables: Ransom Note](#Hash_Tables_Ransom_Note)|[Minimum Swaps 2](#Minimum_Swaps_2)|[New Year Chaos](#New_Year_Chaos)|
 |[Two Strings](#Two_Strings)|[Array Manipulation](#Array_Manipulation)|[Super Palindromes](Super_Palindromes)|[Moving Robot](Moving_Robot)|
+|[Minimum Cost](#Minimum_Cost)|[-]()|[-]()|[-]()|
 
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -190,4 +191,14 @@ Input: "GGLLGG"
 Ouput: true  
 #### Solutions :
   * [IsLooping.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/IsLooping.py)
+---
+
+### Minimum Cost<a name="Minimum_Cost"></a>
+#### Challenge :
+A builder is looking to build a row of N houses that can be of K different colors.
+He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
+Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color,
+return the minimum cost which achieves this goal.
+#### Solutions :
+  * [LowestCost.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/LowestCost.py)
 ---
