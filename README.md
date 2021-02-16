@@ -25,8 +25,8 @@ Programming Challenges and Solutions for Fun
 |[Check If N and Its Double Exist](#checkIfExist)|[Linked List Cycle](#hasCycle)|[Linked List Cycle II](#detectCycle)|[Maximum Number of Weeks for Which You Can Work](#numberOfWeeks)|
 |[Check If String Is a Prefix of Array](#isPrefixString)|[Remove Stones to Minimize the Total](#minStoneSum)|[Minimum Number of Swaps to Make the String Balanced](#minSwaps)|[Find the Duplicate Number](#findDuplicate)|
 |[Number of Strings That Appear as Substrings in Word](#numOfStrings)|[Array With Elements Not Equal to Average of Neighbors](#rearrangeArray)|[Minimum Non-Zero Product of the Array Elements](#minNonZeroProduct)|[Check Permutation](#checkPermutation)|
-|[Minimize the Difference Between Target and Chosen Elements](#minimizeTheDifference)|[Find Greatest Common Divisor of Array](#findGCD)|[-](#)|[-](#)|
-|[-](#)|[-](#)|[-](#)|[-](#)|
+|[Minimize the Difference Between Target and Chosen Elements](#minimizeTheDifference)|[Find Greatest Common Divisor of Array](#findGCD)|[Reverse First k Elements of Queue](#reverseKelements)|[Check Permutation](#checkPermutation)|
+|[Find the last true](#lastTrue)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -1163,4 +1163,36 @@ The greatest common divisor of two numbers is the largest positive integer that 
 Given an array of strings nums containing n unique binary strings each of length n, return a binary string of length n that does not appear in nums. If there are multiple answers, you may return any of them.
 #### Solutions :
   * [findDifferentBinaryString.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findDifferentBinaryString.py)
+---
+
+###   Reverse First k Elements of Queue <a name="reverseKelements"></a>
+#### Challenge :
+Reverse First k Elements of Queue
+#### Solutions :
+  * [reverseKElements.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/reverseKElements.py)
+  * [reverseKElements.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/reverseKElements.cpp)
+---
+
+###   Reverse First k Elements of Queue <a name="reverseKelements"></a>
+#### Challenge :
+Reverse First k Elements of Queue
+#### Solutions :
+  * [reverseKElements.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/reverseKElements.py)
+  * [reverseKElements.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/reverseKElements.cpp)
+---
+
+###   Check Permutation <a name="checkPermutation"></a>
+#### Challenge :
+Given two strings, write a method to decide if one is a permutation of the
+other.
+#### Solutions :
+  * [CheckPermutation.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/CheckPermutation.py)
+---
+
+###   Find the last true <a name="lastTrue"></a>
+#### Challenge :
+Find the last true in a binary array using binary search
+
+#### Solutions :
+  * [lastTrue.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/lastTrue.py)
 ---
