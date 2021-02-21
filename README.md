@@ -26,7 +26,10 @@ Programming Challenges and Solutions for Fun
 |[Check If String Is a Prefix of Array](#isPrefixString)|[Remove Stones to Minimize the Total](#minStoneSum)|[Minimum Number of Swaps to Make the String Balanced](#minSwaps)|[Find the Duplicate Number](#findDuplicate)|
 |[Number of Strings That Appear as Substrings in Word](#numOfStrings)|[Array With Elements Not Equal to Average of Neighbors](#rearrangeArray)|[Minimum Non-Zero Product of the Array Elements](#minNonZeroProduct)|[Check Permutation](#checkPermutation)|
 |[Minimize the Difference Between Target and Chosen Elements](#minimizeTheDifference)|[Find Greatest Common Divisor of Array](#findGCD)|[Reverse First k Elements of Queue](#reverseKelements)|[Check Permutation](#checkPermutation)|
-|[Find the last true](#lastTrue)|[-](#)|[-](#)|[-](#)|
+|[Find the last true](#lastTrue)|[Rotate Matrix](#RotateMatrix)|[-](#)|[-](#)|
+|[-](#)|[-](#)|[-](#)|[-](#)|
+|[-](#)|[-](#)|[-](#)|[-](#)|
+|[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -1195,4 +1198,14 @@ Find the last true in a binary array using binary search
 
 #### Solutions :
   * [lastTrue.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/lastTrue.py)
+---
+
+: 
+
+### Rotate Matrix <a name="RotateMatrix"></a>
+#### Challenge :
+Given an image represented by an NxN matrix, where each pixel in the image is 4
+bytes, write a method to rotate the image by 90 degrees. Can you do this in place?
+#### Solutions :
+  * [matRotate.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/matRotate.py)
 ---
