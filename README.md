@@ -1209,3 +1209,13 @@ bytes, write a method to rotate the image by 90 degrees. Can you do this in plac
 #### Solutions :
   * [matRotate.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/matRotate.py)
 ---
+
+### String Compression <a name="StringCompression"></a>
+#### Challenge :
+Implement a method to perform basic string compression using the counts
+of repeated characters. For example, the string aabcccccaaa would become a2blc5a3. If the
+"compressed" string would not become smaller than the original string, your method should return
+the original string. You can assume the string has only uppercase and lowercase letters (a - z).
+#### Solutions :
+  * [StringCompression.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/StringCompression.py)
+---
