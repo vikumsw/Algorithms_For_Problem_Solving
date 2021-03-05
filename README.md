@@ -27,7 +27,7 @@ Programming Challenges and Solutions for Fun
 |[Number of Strings That Appear as Substrings in Word](#numOfStrings)|[Array With Elements Not Equal to Average of Neighbors](#rearrangeArray)|[Minimum Non-Zero Product of the Array Elements](#minNonZeroProduct)|[Check Permutation](#checkPermutation)|
 |[Minimize the Difference Between Target and Chosen Elements](#minimizeTheDifference)|[Find Greatest Common Divisor of Array](#findGCD)|[Reverse First k Elements of Queue](#reverseKelements)|[Check Permutation](#checkPermutation)|
 |[Find the last true](#lastTrue)|[Rotate Matrix](#RotateMatrix)|[Zigzag Traversal](#ZigzagTraversal)|[String Compression](#StringCompression)|
-|[-](#)|[-](#)|[-](#)|[-](#)|
+|[Reverse the order of words](#Reversewords)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
@@ -1230,4 +1230,11 @@ Given a binary tree, populate an array to represent its zigzag level order trave
 You should populate the values of all nodes of the first level from left to right, then right to left for the next level, alternating in the same way for all levels.
 #### Solutions :
   * [zigZagTraversal.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/zigZagTraversal.py)
+---
+
+### Reverse the order of words in a given string. <a name="Reversewords"></a>
+#### Challenge :
+Reverse the order of words in a given string.
+#### Solutions :
+  * [reverseSentense.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/reverseSentense.py)
 ---
