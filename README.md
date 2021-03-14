@@ -15,7 +15,7 @@ Programming Challenges and Solutions for Fun
 |[Merge Sort](#MergeSort)|[Sqrt(x)](#Sqrt)|[Search for a Range](#searchRange)|[First Bad Version](#firstBadVersion)|
 |[Find Peak Element](#findPeakElement)|[Reverse Linked List](#reverseList)|[Swap Nodes in Pairs](#swapPairs)|[Fibonacci Number ](#fib)|
 |[Merge Two Sorted Lists](#mergeTwoLists)|[Maximum Depth of Binary Tree](#maxDepth)|[Factorial](#Factorial)|[Climbing Stairs](#climbStairs)|
-|[-](#-)|[-](#-)|[-](#-)|[-](#-)|
+|[Determine Whether Matrix Can Be Obtained By Rotation](#findRotation)|[-](#-)|[-](#-)|[-](#-)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
 #### Challenge : 
@@ -579,3 +579,12 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
   * [climbStairs_dp.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/climbStairs_DP.py)
   * [climbStairs_recursive.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/climbStairs_recursive.py)
 ---
+
+### Determine Whether Matrix Can Be Obtained By Rotation <a name="findRotation"></a>
+#### Challenge :
+Given two n x n binary matrices mat and target, return true if it is possible to make mat equal to target by rotating mat in 90-degree increments, or false otherwise.
+
+#### Solutions :
+  * [findRotation.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/climbStairs_DP.py)
+---
+
