@@ -27,7 +27,7 @@ Programming Challenges and Solutions for Fun
 |[Number of Strings That Appear as Substrings in Word](#numOfStrings)|[Array With Elements Not Equal to Average of Neighbors](#rearrangeArray)|[Minimum Non-Zero Product of the Array Elements](#minNonZeroProduct)|[Check Permutation](#checkPermutation)|
 |[Minimize the Difference Between Target and Chosen Elements](#minimizeTheDifference)|[Find Greatest Common Divisor of Array](#findGCD)|[Reverse First k Elements of Queue](#reverseKelements)|[Check Permutation](#checkPermutation)|
 |[Find the last true](#lastTrue)|[Rotate Matrix](#RotateMatrix)|[Zigzag Traversal](#ZigzagTraversal)|[String Compression](#StringCompression)|
-|[Reverse the order of words](#Reversewords)|[-](#)|[-](#)|[-](#)|
+|[Reverse the order of words](#Reversewords)|[URLify](#URLify)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
@@ -1237,4 +1237,19 @@ You should populate the values of all nodes of the first level from left to righ
 Reverse the order of words in a given string.
 #### Solutions :
   * [reverseSentense.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/reverseSentense.py)
+---
+
+
+
+### URLify <a name="URLify"></a>
+#### Challenge :
+Write a method to replace all spaces in a string with '%20'. You may assume that the string
+has sufficient space at the end to hold the additional characters, and that you are given the "true"
+length of the string. (Note: If implementing in Java, please use a character array so that you can
+perform this operation in place.)
+EXAMPLE
+Input: "Mr John Smith    ", 13
+Output: "Mr%20John%20Smith".
+#### Solutions :
+  * [urlify.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/urlify.cpp)
 ---
