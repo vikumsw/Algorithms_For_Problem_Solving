@@ -13,7 +13,7 @@ Programming Challenges and Solutions for Fun
 |[Longer Contiguous Segments of Ones than Zeros](#Ones_than_Zeros)|[Minimum Speed to Arrive on Time](#minSpeedOnTime)|[Smaller Strings](#SmallerStrings)|[Jump Game](#JumpGame)|
 |[Top K Frequent Words](#topKFrequent)|[Course Schedule II](#Course_Schedule)|[Redundant Connection](#RedundantConnection)|[Binary Search](#BinarySearch)|
 |[Merge Sort](#MergeSort)|[Sqrt(x)](#Sqrt)|[Search for a Range](#searchRange)|[First Bad Version](#firstBadVersion)|
-|[Find Peak Element](#findPeakElement)|[Reverse Linked List](#reverseList)|[-](#-)|[-](#-)|
+|[Find Peak Element](#findPeakElement)|[Reverse Linked List](#reverseList)|[Swap Nodes in Pairs](#swapPairs)|[-](#-)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
 ---
@@ -480,5 +480,16 @@ Given the head of a singly linked list, reverse the list, and return the reverse
   * [reverseList.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/reverseList.py)
 ---
 
+### Reverse String <a name="reverseString"></a>
+#### Challenge :
+Write a function that reverses a string. The input string is given as an array of characters s.
+#### Solutions :
+  * [reverseString.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/reverseString.py)
+---
 
-
+### Swap Nodes in Pairs <a name="swapPairs"></a>
+#### Challenge :
+Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed.)
+#### Solutions :
+  * [swapPairs.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/swapPairs.py)
+---
