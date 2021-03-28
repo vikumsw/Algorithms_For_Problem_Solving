@@ -12,7 +12,7 @@ Programming Challenges and Solutions for Fun
 |[Sum of All Subset XOR Totals](#XOR_Totals)|[Finding Pairs With a Certain Sum](#FindSumPairs)|[Largest Number](#Largest_Number)|[Best Team With No Conflicts](#Best_Team_With_No_Conflicts)|
 |[Longer Contiguous Segments of Ones than Zeros](#Ones_than_Zeros)|[Minimum Speed to Arrive on Time](#minSpeedOnTime)|[Smaller Strings](#SmallerStrings)|[Jump Game](#JumpGame)|
 |[Top K Frequent Words](#topKFrequent)|[Course Schedule II](#Course_Schedule)|[Redundant Connection](#RedundantConnection)|[Binary Search](#BinarySearch)|
-|[Merge Sort](#MergeSort)|[Sqrt(x)](#Sqrt)|[-](#-)|[-](#-)|
+|[Merge Sort](#MergeSort)|[Sqrt(x)](#Sqrt)|[Search for a Range](#searchRange)|[-](#-)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
@@ -434,5 +434,15 @@ Since the return type is an integer, the decimal digits are truncated, and only 
 Note: You are not allowed to use any built-in exponent function or operator, such as pow(x, 0.5) or x ** 0.5.
 #### Solutions :
   * [sqrtx.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/sqrtx.py)
+---
+
+### Search for a Range<a name="searchRange"></a>
+#### Challenge :
+Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.
+
+If target is not found in the array, return [-1, -1].
+
+You must write an algorithm with O(log n) runtime complexity.#### Solutions :
+  * [searchRange.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/searchRange.py)
 ---
 
