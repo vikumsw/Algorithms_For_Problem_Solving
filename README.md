@@ -14,7 +14,7 @@ Programming Challenges and Solutions for Fun
 |[Top K Frequent Words](#topKFrequent)|[Course Schedule II](#Course_Schedule)|[Redundant Connection](#RedundantConnection)|[Binary Search](#BinarySearch)|
 |[Merge Sort](#MergeSort)|[Sqrt(x)](#Sqrt)|[Search for a Range](#searchRange)|[First Bad Version](#firstBadVersion)|
 |[Find Peak Element](#findPeakElement)|[Reverse Linked List](#reverseList)|[Swap Nodes in Pairs](#swapPairs)|[Fibonacci Number ](#fib)|
-|[Merge Two Sorted Lists](#mergeTwoLists)|[-](#-)|[-](#-)|[-](#-)|
+|[Merge Two Sorted Lists](#mergeTwoLists)|[Maximum Depth of Binary Tree](#maxDepth)|[-](#-)|[-](#-)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -536,4 +536,14 @@ The number of nodes in both lists is in the range [0, 50].
 Both l1 and l2 are sorted in non-decreasing order.
 #### Solutions :
   * [mergeTwoLists.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/mergeTwoLists.py)
+---
+
+
+### Maximum Depth of Binary Tree <a name="maxDepth"></a>
+#### Challenge :
+Given the root of a binary tree, return its maximum depth.
+
+A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+#### Solutions :
+  * [maxDepth.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/maxDepth.py)
 ---
