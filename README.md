@@ -11,7 +11,7 @@ Programming Challenges and Solutions for Fun
 |[Minimum Cost](#Minimum_Cost)|[Min Stack](#Min_Stack)|[Valid Parentheses](#Valid_Parentheses)|[Minimum Number of Swaps to Make the Binary String Alternating](#Minimum_Swaps)|
 |[Sum of All Subset XOR Totals](#XOR_Totals)|[Finding Pairs With a Certain Sum](#FindSumPairs)|[Largest Number](#Largest_Number)|[Best Team With No Conflicts](#Best_Team_With_No_Conflicts)|
 |[Longer Contiguous Segments of Ones than Zeros](#Ones_than_Zeros)|[Minimum Speed to Arrive on Time](#minSpeedOnTime)|[Smaller Strings](#SmallerStrings)|[Jump Game](#JumpGame)|
-|[Top K Frequent Words](#topKFrequent)|[-](#-)|[-](#-)|[-](#-)|
+|[Top K Frequent Words](#topKFrequent)|[Course Schedule II](#Course_Schedule)|[-](#-)|[-](#-)|
 
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -380,3 +380,15 @@ Your answer should be sorted by frequency from highest to lowest. If two words h
   * 
 ---
 
+### Course Schedule II<a name="Course_Schedule"></a>
+#### Challenge :
+There are a total of numCourses courses you have to take, labeled from 0 to numCourses - 1. You are given an array prerequisites where prerequisites[i] = [ai, bi] indicates that you must take course bi first if you want to take course ai.
+
+For example, the pair [0, 1], indicates that to take course 0 you have to first take course 1.
+Return the ordering of courses you should take to finish all courses. If there are many valid answers, return any of them. If it is impossible to finish all courses, return an empty array.
+
+#### Solutions :
+  * [findOrder_1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findOrder_1.py)
+  * [findOrder_dfs.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findOrder_dfs.py)
+  * 
+---
