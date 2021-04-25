@@ -14,7 +14,7 @@ Programming Challenges and Solutions for Fun
 |[Top K Frequent Words](#topKFrequent)|[Course Schedule II](#Course_Schedule)|[Redundant Connection](#RedundantConnection)|[Binary Search](#BinarySearch)|
 |[Merge Sort](#MergeSort)|[Sqrt(x)](#Sqrt)|[Search for a Range](#searchRange)|[First Bad Version](#firstBadVersion)|
 |[Find Peak Element](#findPeakElement)|[Reverse Linked List](#reverseList)|[Swap Nodes in Pairs](#swapPairs)|[Fibonacci Number ](#fib)|
-|[-](#-)|[-](#-)|[-](#-)|[-](#-)|
+|[Merge Two Sorted Lists](#mergeTwoLists)|[-](#-)|[-](#-)|[-](#-)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -522,3 +522,18 @@ Note: a + b is the concatenation of strings a and b.
   * [isInterleave.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/isInterleave.py)
 ---
 
+
+### Merge Two Sorted Lists <a name="mergeTwoLists"></a>
+#### Challenge :
+Merge two sorted linked lists and return it as a sorted list. The list should be made by splicing together the nodes of the first two lists.
+
+Constraints:
+
+The number of nodes in both lists is in the range [0, 50].
+
+-100 <= Node.val <= 100
+
+Both l1 and l2 are sorted in non-decreasing order.
+#### Solutions :
+  * [mergeTwoLists.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/mergeTwoLists.py)
+---
