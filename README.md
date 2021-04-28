@@ -16,7 +16,7 @@ Programming Challenges and Solutions for Fun
 |[Find Peak Element](#findPeakElement)|[Reverse Linked List](#reverseList)|[Swap Nodes in Pairs](#swapPairs)|[Fibonacci Number ](#fib)|
 |[Merge Two Sorted Lists](#mergeTwoLists)|[Maximum Depth of Binary Tree](#maxDepth)|[Factorial](#Factorial)|[Climbing Stairs](#climbStairs)|
 |[Determine Whether Matrix Can Be Obtained By Rotation](#findRotation)|[Reduction Operations to Make the Array Elements Equal](#reductionOperations)|[Pascal's Triangle II](#PascalTriangle)|[Max Consecutive Ones](#MaxConsecutiveOnes)|
-[Squares of a Sorted Array](#sortedSquares)|[Duplicate Zeros](#duplicateZeros)|[-](#)|[-](#)|
+[Squares of a Sorted Array](#sortedSquares)|[Duplicate Zeros](#duplicateZeros)|[Pow(x, n)](#myPow)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
@@ -658,4 +658,12 @@ Do the above modifications to the input array in place, do not return anything f
 
 #### Solutions :
   * [duplicateZeros.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/duplicateZeros.py)
+---
+
+### Pow(x, n) <a name="myPow"></a>
+#### Challenge :
+Implement pow(x, n), which calculates x raised to the power n (i.e., x^n).
+
+#### Solutions :
+  * [myPow.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/myPow.py)
 ---
