@@ -10,7 +10,7 @@ Programming Challenges and Solutions for Fun
 |[Two Strings](#Two_Strings)|[Array Manipulation](#Array_Manipulation)|[Super Palindromes](Super_Palindromes)|[Moving Robot](Moving_Robot)|
 |[Minimum Cost](#Minimum_Cost)|[Min Stack](#Min_Stack)|[Valid Parentheses](#Valid_Parentheses)|[Minimum Number of Swaps to Make the Binary String Alternating](#Minimum_Swaps)|
 |[Sum of All Subset XOR Totals](#XOR_Totals)|[Finding Pairs With a Certain Sum](#FindSumPairs)|[Largest Number](#Largest_Number)|[Best Team With No Conflicts](#Best_Team_With_No_Conflicts)|
-|[Longer Contiguous Segments of Ones than Zeros](#Ones_than_Zeros)|[Minimum Speed to Arrive on Time](#minSpeedOnTime)|[Smaller Strings](#SmallerStrings)|[-](#-)|
+|[Longer Contiguous Segments of Ones than Zeros](#Ones_than_Zeros)|[Minimum Speed to Arrive on Time](#minSpeedOnTime)|[Smaller Strings](#SmallerStrings)|[Jump Game](#JumpGame)|
 
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -341,4 +341,26 @@ As the number of such strings can be very large, print the answer modulo 10^9+7.
 
 #### Solutions :
   * [SmallerStrings.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/SmallerStrings.py)
+---
+
+### Jump Game<a name="JumpGame"></a>
+#### Challenge :
+You are given a 0-indexed binary string s and two integers minJump and maxJump. In the beginning, you are standing at index 0, which is equal to '0'. You can move from index i to index j if the following conditions are fulfilled:
+
+i + minJump <= j <= min(i + maxJump, s.length - 1), and
+s[j] == '0'.
+Return true if you can reach index s.length - 1 in s, or false otherwise.
+
+Constraints:
+
+2 <= s.length <= 105
+
+s[i] is either '0' or '1'.
+
+s[0] == '0'
+
+1 <= minJump <= maxJump < s.length
+
+#### Solutions :
+  * [jumpGame.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/jumpGame.py)
 ---
