@@ -308,3 +308,23 @@ Tests are generated such that the answer will not exceed 107 and hour will have 
 #### Solutions :
   * [minSpeedOnTime.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/minSpeedOnTime.py)
 ---
+
+### Queue Reconstruction by Height<a name="reconstructQueue"></a>
+#### Challenge :
+You are given an array of people, people, which are the attributes of some people in a queue (not necessarily in order). Each people[i] = [hi, ki] represents the ith person of height hi with exactly ki other people in front who have a height greater than or equal to hi.
+
+Reconstruct and return the queue that is represented by the input array people. The returned queue should be formatted as an array queue, where queue[j] = [hj, kj] is the attributes of the jth person in the queue (queue[0] is the person at the front of the queue).
+
+Constraints:
+
+1 <= people.length <= 2000
+
+0 <= hi <= 106
+
+0 <= ki < people.length
+
+It is guaranteed that the queue can be reconstructed.
+
+#### Solutions :
+  * [reconstructQueue.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/reconstructQueue.py)
+---
