@@ -32,6 +32,7 @@ Let's define a "sevenish" number to be one which is either a power of 7, or the 
 
 #### Solutions :
   * [CounttheIslands.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/Solutions/CounttheIslands.py)
+  * [CounttheIslands2.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/Solutions/CountTheIslands2.py)
 ---
 ### String of Parentheses<a name="StringofParentheses"></a>
 #### Challenge : 
