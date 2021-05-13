@@ -8,7 +8,7 @@ Programming Challenges and Solutions for Fun
 |[Smallest Sparse Number](#smallestSparseNumber)|  [N<sup>th</sup> Sevenish Number](#Nthsevenishnumber)|[Max & Min](#Max_&_Min)|[Maximum Subarray Sum of a Circular Array](#Maximum_Subarray_Sum_of_a_Circular_Array) |
 |[Sherlock and Anagrams](#Sherlock_and_Anagrams)|[Hash Tables: Ransom Note](#Hash_Tables_Ransom_Note)|[Minimum Swaps 2](#Minimum_Swaps_2)|[New Year Chaos](#New_Year_Chaos)|
 |[Two Strings](#Two_Strings)|[Array Manipulation](#Array_Manipulation)|[Super Palindromes](Super_Palindromes)|[Moving Robot](Moving_Robot)|
-|[Minimum Cost](#Minimum_Cost)|[Min Stack](#Min_Stack)|[-]()|[-]()|
+|[Minimum Cost](#Minimum_Cost)|[Min Stack](#Min_Stack)|[Valid Parentheses](#Valid_Parentheses)|[-]()|
 
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -209,5 +209,12 @@ return the minimum cost which achieves this goal.
 Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 #### Solutions :
   * [minStack.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/minStack.py)
+---
+
+### Valid Parentheses<a name="Valid_Parentheses"></a>
+#### Challenge :
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+#### Solutions :
+  * [ValidParanthesis.java](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/java/ValidParanthesis.java)
 ---
 
