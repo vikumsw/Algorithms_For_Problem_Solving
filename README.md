@@ -9,7 +9,7 @@ Programming Challenges and Solutions for Fun
 |[Sherlock and Anagrams](#Sherlock_and_Anagrams)|[Hash Tables: Ransom Note](#Hash_Tables_Ransom_Note)|[Minimum Swaps 2](#Minimum_Swaps_2)|[New Year Chaos](#New_Year_Chaos)|
 |[Two Strings](#Two_Strings)|[Array Manipulation](#Array_Manipulation)|[Super Palindromes](Super_Palindromes)|[Moving Robot](Moving_Robot)|
 |[Minimum Cost](#Minimum_Cost)|[Min Stack](#Min_Stack)|[Valid Parentheses](#Valid_Parentheses)|[Minimum Number of Swaps to Make the Binary String Alternating](#Minimum_Swaps)|
-|[Sum of All Subset XOR Totals](#XOR_Totals)|[-](#-)|[-](#-)|[-](#-)|
+|[Sum of All Subset XOR Totals](#XOR_Totals)|[Finding Pairs With a Certain Sum](#FindSumPairs)|[-](#-)|[-](#-)|
 
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -242,6 +242,19 @@ An array a is a subset of an array b if a can be obtained from b by deleting som
 1 <= nums[i] <= 20
 #### Solutions :
   * [subsetXORSum.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/subsetXORSum.py)
+---
+
+### Finding Pairs With a Certain Sum<a name="FindSumPairs"></a>
+#### Challenge :
+You are given two integer arrays nums1 and nums2. You are tasked to implement a data structure that supports queries of two types:
+Add a positive integer to an element of a given index in the array nums2.
+Count the number of pairs (i, j) such that nums1[i] + nums2[j] equals a given value (0 <= i < nums1.length and 0 <= j < nums2.length).
+Implement the FindSumPairs class:
+FindSumPairs(int[] nums1, int[] nums2) Initializes the FindSumPairs object with two integer arrays nums1 and nums2.
+void add(int index, int val) Adds val to nums2[index], i.e., apply nums2[index] += val.
+int count(int tot) Returns the number of pairs (i, j) such that nums1[i] + nums2[j] == tot.
+#### Solutions :
+  * [FindSumPairs.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/FindSumPairs.py)
 ---
 
 
