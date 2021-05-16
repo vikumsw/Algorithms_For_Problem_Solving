@@ -8,7 +8,7 @@ Programming Challenges and Solutions for Fun
 |[Smallest Sparse Number](#smallestSparseNumber)|  [N<sup>th</sup> Sevenish Number](#Nthsevenishnumber)|[Max & Min](#Max_&_Min)|[Maximum Subarray Sum of a Circular Array](#Maximum_Subarray_Sum_of_a_Circular_Array) |
 |[Sherlock and Anagrams](#Sherlock_and_Anagrams)|[Hash Tables: Ransom Note](#Hash_Tables_Ransom_Note)|[Minimum Swaps 2](#Minimum_Swaps_2)|[New Year Chaos](#New_Year_Chaos)|
 |[Two Strings](#Two_Strings)|[Array Manipulation](#Array_Manipulation)|[Super Palindromes](Super_Palindromes)|[Moving Robot](Moving_Robot)|
-|[Minimum Cost](#Minimum_Cost)|[Min Stack](#Min_Stack)|[Valid Parentheses](#Valid_Parentheses)|[Minimum Number of Swaps](#Minimum_Swaps)|
+|[Minimum Cost](#Minimum_Cost)|[Min Stack](#Min_Stack)|[Valid Parentheses](#Valid_Parentheses)|[Minimum Number of Swaps to Make the Binary String Alternating](#Minimum_Swaps)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
 
 ---
@@ -219,7 +219,7 @@ Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
   * [ValidParanthesis.java](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/java/ValidParanthesis.java)
 ---
 
-### Minimum Number of Swaps<a name="Minimum_Swaps"></a>
+### Minimum Number of Swaps to Make the Binary String Alternating<a name="Minimum_Swaps"></a>
 #### Challenge :
 Given a binary string s, return the minimum number of character swaps to make it alternating, or -1 if it is impossible.
 The string is called alternating if no two adjacent characters are equal. For example, the strings "010" and "1010" are alternating, while the string "0100" is not.
