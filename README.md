@@ -9,7 +9,7 @@ Programming Challenges and Solutions for Fun
 |[Sherlock and Anagrams](#Sherlock_and_Anagrams)|[Hash Tables: Ransom Note](#Hash_Tables_Ransom_Note)|[Minimum Swaps 2](#Minimum_Swaps_2)|[New Year Chaos](#New_Year_Chaos)|
 |[Two Strings](#Two_Strings)|[Array Manipulation](#Array_Manipulation)|[Super Palindromes](Super_Palindromes)|[Moving Robot](Moving_Robot)|
 |[Minimum Cost](#Minimum_Cost)|[Min Stack](#Min_Stack)|[Valid Parentheses](#Valid_Parentheses)|[Minimum Number of Swaps to Make the Binary String Alternating](#Minimum_Swaps)|
-|[-](#-)|[-](#-)|[-](#-)|[-](#-)|
+|[Sum of All Subset XOR Totals](#XOR_Totals)|[-](#-)|[-](#-)|[-](#-)|
 
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -229,3 +229,19 @@ s[i] is either '0' or '1'.
 #### Solutions :
   * [minSwaps.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/minSwaps.py)
 ---
+
+
+### Sum of All Subset XOR Totals<a name="XOR_Totals"></a>
+#### Challenge :
+The XOR total of an array is defined as the bitwise XOR of all its elements, or 0 if the array is empty.
+For example, the XOR total of the array [2,5,6] is 2 XOR 5 XOR 6 = 1.
+Given an array nums, return the sum of all XOR totals for every subset of nums. 
+Note: Subsets with the same elements should be counted multiple times.
+An array a is a subset of an array b if a can be obtained from b by deleting some (possibly zero) elements of b.
+1 <= nums.length <= 12.
+1 <= nums[i] <= 20
+#### Solutions :
+  * [subsetXORSum.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/subsetXORSum.py)
+---
+
+
