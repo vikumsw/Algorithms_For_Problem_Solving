@@ -224,6 +224,8 @@ Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
 Given a binary string s, return the minimum number of character swaps to make it alternating, or -1 if it is impossible.
 The string is called alternating if no two adjacent characters are equal. For example, the strings "010" and "1010" are alternating, while the string "0100" is not.
 Any two characters may be swapped, even if they are not adjacent.
+1 <= s.length <= 1000
+s[i] is either '0' or '1'.
 #### Solutions :
   * [minSwaps.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/minSwaps.py)
 ---
