@@ -9,7 +9,7 @@ Programming Challenges and Solutions for Fun
 |[Sherlock and Anagrams](#Sherlock_and_Anagrams)|[Hash Tables: Ransom Note](#Hash_Tables_Ransom_Note)|[Minimum Swaps 2](#Minimum_Swaps_2)|[New Year Chaos](#New_Year_Chaos)|
 |[Two Strings](#Two_Strings)|[Array Manipulation](#Array_Manipulation)|[Super Palindromes](Super_Palindromes)|[Moving Robot](Moving_Robot)|
 |[Minimum Cost](#Minimum_Cost)|[Min Stack](#Min_Stack)|[Valid Parentheses](#Valid_Parentheses)|[Minimum Number of Swaps to Make the Binary String Alternating](#Minimum_Swaps)|
-|[Sum of All Subset XOR Totals](#XOR_Totals)|[Finding Pairs With a Certain Sum](#FindSumPairs)|[-](#-)|[-](#-)|
+|[Sum of All Subset XOR Totals](#XOR_Totals)|[Finding Pairs With a Certain Sum](#FindSumPairs)|[Largest Number](#Largest_Number)|[-](#-)|
 
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -255,6 +255,17 @@ void add(int index, int val) Adds val to nums2[index], i.e., apply nums2[index] 
 int count(int tot) Returns the number of pairs (i, j) such that nums1[i] + nums2[j] == tot.
 #### Solutions :
   * [FindSumPairs.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/FindSumPairs.py)
+---
+
+
+### Largest Number<a name="Largest_Number"></a>
+#### Challenge :
+Given a list of non-negative integers nums, arrange them such that they form the largest number.
+Note: The result may be very large, so you need to return a string instead of an integer.
+1 <= nums.length <= 100.
+0 <= nums[i] <= 109.
+#### Solutions :
+  * [Largest_Number.java](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/java/Largest_Number.java)
 ---
 
 
