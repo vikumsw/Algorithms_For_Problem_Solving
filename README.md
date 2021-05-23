@@ -10,6 +10,7 @@ Programming Challenges and Solutions for Fun
 |[Two Strings](#Two_Strings)|[Array Manipulation](#Array_Manipulation)|[Super Palindromes](Super_Palindromes)|[Moving Robot](Moving_Robot)|
 |[Minimum Cost](#Minimum_Cost)|[Min Stack](#Min_Stack)|[Valid Parentheses](#Valid_Parentheses)|[Minimum Number of Swaps to Make the Binary String Alternating](#Minimum_Swaps)|
 |[Sum of All Subset XOR Totals](#XOR_Totals)|[Finding Pairs With a Certain Sum](#FindSumPairs)|[Largest Number](#Largest_Number)|[Best Team With No Conflicts](#Best_Team_With_No_Conflicts)|
+|[Longer Contiguous Segments of Ones than Zeros](#Ones_than_Zeros)|[-](#-)|[-](#-)|[-](#-)|
 
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -277,3 +278,20 @@ Given two lists, scores and ages, where each scores[i] and ages[i] represents th
 #### Solutions :
   * [bestTeamScore.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/bestTeamScore.py)
 ---
+
+### Longer Contiguous Segments of Ones than Zeros<a name="Ones_than_Zeros"></a>
+#### Challenge :
+Given a binary string s, return true if the longest contiguous segment of 1s is strictly longer than the longest contiguous segment of 0s in s. Return false otherwise.
+
+For example, in s = "110100010" the longest contiguous segment of 1s has length 2, and the longest contiguous segment of 0s has length 3.
+Note that if there are no 0s, then the longest contiguous segment of 0s is considered to have length 0. The same applies if there are no 1s.
+
+Constraints:
+
+1 <= s.length <= 100.
+
+s[i] is either '0' or '1'.
+#### Solutions :
+  * [checkZeroOnes.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/checkZeroOnes.py)
+---
+
