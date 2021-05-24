@@ -10,7 +10,7 @@ Programming Challenges and Solutions for Fun
 |[Two Strings](#Two_Strings)|[Array Manipulation](#Array_Manipulation)|[Super Palindromes](Super_Palindromes)|[Moving Robot](Moving_Robot)|
 |[Minimum Cost](#Minimum_Cost)|[Min Stack](#Min_Stack)|[Valid Parentheses](#Valid_Parentheses)|[Minimum Number of Swaps to Make the Binary String Alternating](#Minimum_Swaps)|
 |[Sum of All Subset XOR Totals](#XOR_Totals)|[Finding Pairs With a Certain Sum](#FindSumPairs)|[Largest Number](#Largest_Number)|[Best Team With No Conflicts](#Best_Team_With_No_Conflicts)|
-|[Longer Contiguous Segments of Ones than Zeros](#Ones_than_Zeros)|[Minimum Speed to Arrive on Time](#minSpeedOnTime)|[-](#-)|[-](#-)|
+|[Longer Contiguous Segments of Ones than Zeros](#Ones_than_Zeros)|[Minimum Speed to Arrive on Time](#minSpeedOnTime)|[Smaller Strings](#SmallerStrings)|[-](#-)|
 
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -327,4 +327,18 @@ It is guaranteed that the queue can be reconstructed.
 
 #### Solutions :
   * [reconstructQueue.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/reconstructQueue.py)
+---
+
+### Smaller Strings<a name="SmallerStrings"></a>
+#### Challenge :
+You are given an integer K and a string S of length N, consisting of lowercase letters from the first K letters of the English alphabet. Find the number of palindrome strings of length N which are lexicographically smaller than S and consist of lowercase letters from the first K letters of the English alphabet.
+
+A string composed of ordered letters a1,a2,…,an is lexicographically smaller than another string of the same length b1,b2,…,bn if ai<bi, where i is the first index where characters differ in the two strings. For example, the following strings are arranged in lexicographically increasing order: aaa, aab, aba, cab.
+
+A palindrome is a string that is the same written forwards and backwards. For example, anna, racecar, aaa and x are all palindromes, while ab, frog and yoyo are not.
+
+As the number of such strings can be very large, print the answer modulo 10^9+7.
+
+#### Solutions :
+  * [SmallerStrings.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/SmallerStrings.py)
 ---
