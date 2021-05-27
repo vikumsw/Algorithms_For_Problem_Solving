@@ -375,5 +375,8 @@ Your answer should be sorted by frequency from highest to lowest. If two words h
 
 #### Solutions :
   * [topKFrequent1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/topKFrequent1.py)
+  * [topKFrequent_Heap1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/topKFrequent_Heap1.py)
+  * [topKFrequent_Heap2.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/topKFrequent_Heap2.py)
+  * 
 ---
 
