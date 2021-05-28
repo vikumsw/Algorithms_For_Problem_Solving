@@ -390,5 +390,6 @@ Return the ordering of courses you should take to finish all courses. If there a
 #### Solutions :
   * [findOrder_1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findOrder_1.py)
   * [findOrder_dfs.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findOrder_dfs.py)
+  * [findOrder_dfs2.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findOrder_dfs2.py)
   * 
 ---
