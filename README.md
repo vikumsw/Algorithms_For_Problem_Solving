@@ -11,7 +11,7 @@ Programming Challenges and Solutions for Fun
 |[Minimum Cost](#Minimum_Cost)|[Min Stack](#Min_Stack)|[Valid Parentheses](#Valid_Parentheses)|[Minimum Number of Swaps to Make the Binary String Alternating](#Minimum_Swaps)|
 |[Sum of All Subset XOR Totals](#XOR_Totals)|[Finding Pairs With a Certain Sum](#FindSumPairs)|[Largest Number](#Largest_Number)|[Best Team With No Conflicts](#Best_Team_With_No_Conflicts)|
 |[Longer Contiguous Segments of Ones than Zeros](#Ones_than_Zeros)|[Minimum Speed to Arrive on Time](#minSpeedOnTime)|[Smaller Strings](#SmallerStrings)|[Jump Game](#JumpGame)|
-|[Top K Frequent Words](#topKFrequent)|[Course Schedule II](#Course_Schedule)|[-](#-)|[-](#-)|
+|[Top K Frequent Words](#topKFrequent)|[Course Schedule II](#Course_Schedule)|[Redundant Connection](#RedundantConnection)|[-](#-)|
 
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -392,4 +392,16 @@ Return the ordering of courses you should take to finish all courses. If there a
   * [findOrder_dfs.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findOrder_dfs.py)
   * [findOrder_dfs2.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findOrder_dfs2.py)
   * 
+---
+
+### Redundant Connection<a name="RedundantConnection"></a>
+#### Challenge :
+In this problem, a tree is an undirected graph that is connected and has no cycles.
+
+You are given a graph that started as a tree with n nodes labeled from 1 to n, with one additional edge added. The added edge has two different vertices chosen from 1 to n, and was not an edge that already existed. The graph is represented as an array edges of length n where edges[i] = [ai, bi] indicates that there is an edge between nodes ai and bi in the graph.
+
+Return an edge that can be removed so that the resulting graph is a tree of n nodes. If there are multiple answers, return the answer that occurs last in the input.
+
+#### Solutions :
+  * [findRedundantConnection.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findRedundantConnection.py)
 ---
