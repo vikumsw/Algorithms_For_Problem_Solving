@@ -13,7 +13,7 @@ Programming Challenges and Solutions for Fun
 |[Longer Contiguous Segments of Ones than Zeros](#Ones_than_Zeros)|[Minimum Speed to Arrive on Time](#minSpeedOnTime)|[Smaller Strings](#SmallerStrings)|[Jump Game](#JumpGame)|
 |[Top K Frequent Words](#topKFrequent)|[Course Schedule II](#Course_Schedule)|[Redundant Connection](#RedundantConnection)|[Binary Search](#BinarySearch)|
 |[Merge Sort](#MergeSort)|[Sqrt(x)](#Sqrt)|[Search for a Range](#searchRange)|[First Bad Version](#firstBadVersion)|
-|[-](#-)|[-](#-)|[-](#-)|[-](#-)|
+|[Find Peak Element](#findPeakElement)|[-](#-)|[-](#-)|[-](#-)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
 ---
@@ -458,4 +458,15 @@ You are given an API bool isBadVersion(version) which returns whether version is
   * [firstBadVersion.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/firstBadVersion.py)
 ---
 
+### Find Peak Element<a name="findPeakElement"></a>
+#### Challenge :
+A peak element is an element that is strictly greater than its neighbors.
 
+Given an integer array nums, find a peak element, and return its index. If the array contains multiple peaks, return the index to any of the peaks.
+
+You may imagine that nums[-1] = nums[n] = -∞.
+
+You must write an algorithm that runs in O(log n) time.
+#### Solutions :
+  * [findPeakElement.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findPeakElement.py)
+---
