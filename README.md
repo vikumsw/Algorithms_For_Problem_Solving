@@ -12,7 +12,7 @@ Programming Challenges and Solutions for Fun
 |[Sum of All Subset XOR Totals](#XOR_Totals)|[Finding Pairs With a Certain Sum](#FindSumPairs)|[Largest Number](#Largest_Number)|[Best Team With No Conflicts](#Best_Team_With_No_Conflicts)|
 |[Longer Contiguous Segments of Ones than Zeros](#Ones_than_Zeros)|[Minimum Speed to Arrive on Time](#minSpeedOnTime)|[Smaller Strings](#SmallerStrings)|[Jump Game](#JumpGame)|
 |[Top K Frequent Words](#topKFrequent)|[Course Schedule II](#Course_Schedule)|[Redundant Connection](#RedundantConnection)|[Binary Search](#BinarySearch)|
-|[Merge Sort](#MergeSort)|[Sqrt(x)](#Sqrt)|[Search for a Range](#searchRange)|[-](#-)|
+|[Merge Sort](#MergeSort)|[Sqrt(x)](#Sqrt)|[Search for a Range](#searchRange)|[First Bad Version](#firstBadVersion)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
@@ -442,7 +442,20 @@ Given an array of integers nums sorted in ascending order, find the starting and
 
 If target is not found in the array, return [-1, -1].
 
-You must write an algorithm with O(log n) runtime complexity.#### Solutions :
+You must write an algorithm with O(log n) runtime complexity.
+#### Solutions :
   * [searchRange.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/searchRange.py)
 ---
+
+### First Bad Version<a name="firstBadVersion"></a>
+#### Challenge :
+You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad.
+
+Suppose you have n versions [1, 2, ..., n] and you want to find out the first bad one, which causes all the following ones to be bad.
+
+You are given an API bool isBadVersion(version) which returns whether version is bad. Implement a function to find the first bad version. You should minimize the number of calls to the API.
+#### Solutions :
+  * [firstBadVersion.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/firstBadVersion.py)
+---
+
 
