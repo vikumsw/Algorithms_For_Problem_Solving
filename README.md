@@ -11,7 +11,7 @@ Programming Challenges and Solutions for Fun
 |[Minimum Cost](#Minimum_Cost)|[Min Stack](#Min_Stack)|[Valid Parentheses](#Valid_Parentheses)|[Minimum Number of Swaps to Make the Binary String Alternating](#Minimum_Swaps)|
 |[Sum of All Subset XOR Totals](#XOR_Totals)|[Finding Pairs With a Certain Sum](#FindSumPairs)|[Largest Number](#Largest_Number)|[Best Team With No Conflicts](#Best_Team_With_No_Conflicts)|
 |[Longer Contiguous Segments of Ones than Zeros](#Ones_than_Zeros)|[Minimum Speed to Arrive on Time](#minSpeedOnTime)|[Smaller Strings](#SmallerStrings)|[Jump Game](#JumpGame)|
-|[Top K Frequent Words](#topKFrequent)|[Course Schedule II](#Course_Schedule)|[Redundant Connection](#RedundantConnection)|[-](#-)|
+|[Top K Frequent Words](#topKFrequent)|[Course Schedule II](#Course_Schedule)|[Redundant Connection](#RedundantConnection)|[Binary Search](#BinarySearch)|
 
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -405,3 +405,13 @@ Return an edge that can be removed so that the resulting graph is a tree of n no
 #### Solutions :
   * [findRedundantConnection.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findRedundantConnection.py)
 ---
+
+### Binary Search<a name="BinarySearch"></a>
+#### Challenge :
+Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
+
+You must write an algorithm with O(log n) runtime complexity.
+#### Solutions :
+  * [BinarySearch1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/BinarySearch1.py)
+---
+
