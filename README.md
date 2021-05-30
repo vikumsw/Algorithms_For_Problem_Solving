@@ -12,6 +12,10 @@ Programming Challenges and Solutions for Fun
 |[Sum of All Subset XOR Totals](#XOR_Totals)|[Finding Pairs With a Certain Sum](#FindSumPairs)|[Largest Number](#Largest_Number)|[Best Team With No Conflicts](#Best_Team_With_No_Conflicts)|
 |[Longer Contiguous Segments of Ones than Zeros](#Ones_than_Zeros)|[Minimum Speed to Arrive on Time](#minSpeedOnTime)|[Smaller Strings](#SmallerStrings)|[Jump Game](#JumpGame)|
 |[Top K Frequent Words](#topKFrequent)|[Course Schedule II](#Course_Schedule)|[Redundant Connection](#RedundantConnection)|[Binary Search](#BinarySearch)|
+|[Merge Sort](#MergeSort)|[-](#-)|[-](#-)|[-](#-)|
+|[-](#-)|[-](#-)|[-](#-)|[-](#-)|
+|[-](#-)|[-](#-)|[-](#-)|[-](#-)|
+|[-](#-)|[-](#-)|[-](#-)|[-](#-)|
 
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -413,5 +417,12 @@ Given an array of integers nums which is sorted in ascending order, and an integ
 You must write an algorithm with O(log n) runtime complexity.
 #### Solutions :
   * [BinarySearch1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/BinarySearch1.py)
+---
+
+### Merge Sort<a name="MergeSort"></a>
+#### Challenge :
+Implement merge sort
+#### Solutions :
+  * [MergeSort.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/MergeSort.py)
 ---
 
