@@ -445,6 +445,7 @@ If target is not found in the array, return [-1, -1].
 You must write an algorithm with O(log n) runtime complexity.
 #### Solutions :
   * [searchRange.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/searchRange.py)
+  * [searchRange_BinarySearch.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/searchRange_BinarySearch.py)
 ---
 
 ### First Bad Version<a name="firstBadVersion"></a>
