@@ -470,4 +470,5 @@ You may imagine that nums[-1] = nums[n] = -∞.
 You must write an algorithm that runs in O(log n) time.
 #### Solutions :
   * [findPeakElement.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findPeakElement.py)
+  * [findPeakElement.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findPeakElement2.py)
 ---
