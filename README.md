@@ -13,7 +13,7 @@ Programming Challenges and Solutions for Fun
 |[Longer Contiguous Segments of Ones than Zeros](#Ones_than_Zeros)|[Minimum Speed to Arrive on Time](#minSpeedOnTime)|[Smaller Strings](#SmallerStrings)|[Jump Game](#JumpGame)|
 |[Top K Frequent Words](#topKFrequent)|[Course Schedule II](#Course_Schedule)|[Redundant Connection](#RedundantConnection)|[Binary Search](#BinarySearch)|
 |[Merge Sort](#MergeSort)|[Sqrt(x)](#Sqrt)|[Search for a Range](#searchRange)|[First Bad Version](#firstBadVersion)|
-|[Find Peak Element](#findPeakElement)|[-](#-)|[-](#-)|[-](#-)|
+|[Find Peak Element](#findPeakElement)|[Reverse Linked List](#reverseList)|[-](#-)|[-](#-)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
 ---
@@ -472,3 +472,13 @@ You must write an algorithm that runs in O(log n) time.
   * [findPeakElement.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findPeakElement.py)
   * [findPeakElement.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findPeakElement2.py)
 ---
+
+### Reverse Linked List<a name="reverseList"></a>
+#### Challenge :
+Given the head of a singly linked list, reverse the list, and return the reversed list.
+#### Solutions :
+  * [reverseList.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/reverseList.py)
+---
+
+
+
