@@ -13,7 +13,7 @@ Programming Challenges and Solutions for Fun
 |[Longer Contiguous Segments of Ones than Zeros](#Ones_than_Zeros)|[Minimum Speed to Arrive on Time](#minSpeedOnTime)|[Smaller Strings](#SmallerStrings)|[Jump Game](#JumpGame)|
 |[Top K Frequent Words](#topKFrequent)|[Course Schedule II](#Course_Schedule)|[Redundant Connection](#RedundantConnection)|[Binary Search](#BinarySearch)|
 |[Merge Sort](#MergeSort)|[Sqrt(x)](#Sqrt)|[Search for a Range](#searchRange)|[First Bad Version](#firstBadVersion)|
-|[Find Peak Element](#findPeakElement)|[Reverse Linked List](#reverseList)|[Swap Nodes in Pairs](#swapPairs)|[-](#-)|
+|[Find Peak Element](#findPeakElement)|[Reverse Linked List](#reverseList)|[Swap Nodes in Pairs](#swapPairs)|[Fibonacci Number ](#fib)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
 ---
@@ -493,3 +493,16 @@ Given a linked list, swap every two adjacent nodes and return its head. You must
 #### Solutions :
   * [swapPairs.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/swapPairs.py)
 ---
+
+### Fibonacci Number <a name="fib"></a>
+#### Challenge :
+he Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1. That is,
+
+F(0) = 0, F(1) = 1
+F(n) = F(n - 1) + F(n - 2), for n > 1.
+Given n, calculate F(n).
+
+#### Solutions :
+  * [fib.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/fib.py)
+---
+
