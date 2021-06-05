@@ -547,3 +547,24 @@ A binary tree's maximum depth is the number of nodes along the longest path from
 #### Solutions :
   * [maxDepth.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/maxDepth.py)
 ---
+
+### Factorial <a name="Factorial"></a>
+#### Challenge :
+Given an integer N, print the factorial of the N (mod 10^9+7).
+
+Input:
+First line contains one integer, T, number of test cases.
+Each test case contains one integer, N.
+
+Output:
+For each test case you need to print the factorial of N (mod 10^9+7).
+
+Constraints:
+1<=T<=10^5
+1<=N<=10^5
+
+
+#### Solutions :
+  * [Factorial_DP.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/Factorial_DP.py)
+---
+
