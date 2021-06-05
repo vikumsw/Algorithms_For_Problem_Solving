@@ -14,7 +14,7 @@ Programming Challenges and Solutions for Fun
 |[Top K Frequent Words](#topKFrequent)|[Course Schedule II](#Course_Schedule)|[Redundant Connection](#RedundantConnection)|[Binary Search](#BinarySearch)|
 |[Merge Sort](#MergeSort)|[Sqrt(x)](#Sqrt)|[Search for a Range](#searchRange)|[First Bad Version](#firstBadVersion)|
 |[Find Peak Element](#findPeakElement)|[Reverse Linked List](#reverseList)|[Swap Nodes in Pairs](#swapPairs)|[Fibonacci Number ](#fib)|
-|[Merge Two Sorted Lists](#mergeTwoLists)|[Maximum Depth of Binary Tree](#maxDepth)|[-](#-)|[-](#-)|
+|[Merge Two Sorted Lists](#mergeTwoLists)|[Maximum Depth of Binary Tree](#maxDepth)|[Factorial](#Factorial)|[-](#-)|
 |[-](#-)|[-](#-)|[-](#-)|[-](#-)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
