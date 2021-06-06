@@ -576,5 +576,6 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
 
 
 #### Solutions :
-  * [climbStairs_DP.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/climbStairs_DP.py)
+  * [climbStairs_dp.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/climbStairs_DP.py)
+  * [climbStairs_recursive.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/climbStairs_recursive.py)
 ---
