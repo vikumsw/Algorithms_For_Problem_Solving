@@ -15,7 +15,7 @@ Programming Challenges and Solutions for Fun
 |[Merge Sort](#MergeSort)|[Sqrt(x)](#Sqrt)|[Search for a Range](#searchRange)|[First Bad Version](#firstBadVersion)|
 |[Find Peak Element](#findPeakElement)|[Reverse Linked List](#reverseList)|[Swap Nodes in Pairs](#swapPairs)|[Fibonacci Number ](#fib)|
 |[Merge Two Sorted Lists](#mergeTwoLists)|[Maximum Depth of Binary Tree](#maxDepth)|[Factorial](#Factorial)|[Climbing Stairs](#climbStairs)|
-|[Determine Whether Matrix Can Be Obtained By Rotation](#findRotation)|[Reduction Operations to Make the Array Elements Equal](#reductionOperations)|[-](#-)|[-](#-)|
+|[Determine Whether Matrix Can Be Obtained By Rotation](#findRotation)|[Reduction Operations to Make the Array Elements Equal](#reductionOperations)|[Pascal's Triangle II](#PascalTriangle)|[-](#-)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
 #### Challenge : 
@@ -599,4 +599,18 @@ Return the number of operations to make all elements in nums equal.
 
 #### Solutions :
   * [reductionOperations.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/reductionOperations.py)
+---
+
+### Pascal's Triangle II <a name="PascalTriangle"></a>
+#### Challenge :
+Given an integer array nums, your goal is to make all elements in nums equal. To complete one operation, follow these steps:
+
+Find the largest value in nums. Let its index be i (0-indexed) and its value be largest. If there are multiple elements with the largest value, pick the smallest i.
+Find the next largest value in nums strictly smaller than largest. Let its value be nextLargest.
+Reduce nums[i] to nextLargest.
+Return the number of operations to make all elements in nums equal.
+
+#### Solutions :
+  * [getRow_iter.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/getRow_iter.py)
+  * [getRow_recursion.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/getRow_recursion.py)
 ---
