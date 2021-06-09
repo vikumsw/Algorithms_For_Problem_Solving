@@ -368,6 +368,7 @@ s[0] == '0'
 #### Solutions :
   * [jumpGame.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/jumpGame.py)
   * [jumpGame_topDownDP.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/jumpGame_topDownDP.py)
+  * [jumpGame_bottomUp_DP.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/jumpGame_bottomUp_DP.py)
 ---
 
 
