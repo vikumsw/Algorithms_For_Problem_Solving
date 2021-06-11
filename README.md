@@ -16,6 +16,11 @@ Programming Challenges and Solutions for Fun
 |[Find Peak Element](#findPeakElement)|[Reverse Linked List](#reverseList)|[Swap Nodes in Pairs](#swapPairs)|[Fibonacci Number ](#fib)|
 |[Merge Two Sorted Lists](#mergeTwoLists)|[Maximum Depth of Binary Tree](#maxDepth)|[Factorial](#Factorial)|[Climbing Stairs](#climbStairs)|
 |[Determine Whether Matrix Can Be Obtained By Rotation](#findRotation)|[Reduction Operations to Make the Array Elements Equal](#reductionOperations)|[Pascal's Triangle II](#PascalTriangle)|[Max Consecutive Ones](#MaxConsecutiveOnes)|
+[Squares of a Sorted Array](#)|[-](#)|[-](#)|[-](#)|
+[-](#sortedSquares)|[-](#)|[-](#)|[-](#)|
+[-](#)|[-](#)|[-](#)|[-](#)|
+[-](#)|[-](#)|[-](#)|[-](#)|
+[-](#)|[-](#)|[-](#)|[-](#)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
 #### Challenge : 
@@ -624,4 +629,20 @@ Given a binary array nums, return the maximum number of consecutive 1's in the a
 #### Solutions :
   * [findMaxConsecutiveOnes1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findMaxConsecutiveOnes1.py)
   * [findMaxConsecutiveOnes2.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findMaxConsecutiveOnes2.py)
+---
+
+### Squares of a Sorted Array <a name="sortedSquares"></a>
+#### Challenge :
+Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
+
+Constraints:
+
+1 <= nums.length <= 104
+
+-104 <= nums[i] <= 104
+
+nums is sorted in non-decreasing order.
+
+#### Solutions :
+  * [sortedSquares.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/sortedSquares.py)
 ---
