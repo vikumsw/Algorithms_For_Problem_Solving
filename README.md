@@ -16,8 +16,8 @@ Programming Challenges and Solutions for Fun
 |[Find Peak Element](#findPeakElement)|[Reverse Linked List](#reverseList)|[Swap Nodes in Pairs](#swapPairs)|[Fibonacci Number ](#fib)|
 |[Merge Two Sorted Lists](#mergeTwoLists)|[Maximum Depth of Binary Tree](#maxDepth)|[Factorial](#Factorial)|[Climbing Stairs](#climbStairs)|
 |[Determine Whether Matrix Can Be Obtained By Rotation](#findRotation)|[Reduction Operations to Make the Array Elements Equal](#reductionOperations)|[Pascal's Triangle II](#PascalTriangle)|[Max Consecutive Ones](#MaxConsecutiveOnes)|
-[Squares of a Sorted Array](#)|[-](#)|[-](#)|[-](#)|
-[-](#sortedSquares)|[-](#)|[-](#)|[-](#)|
+[Squares of a Sorted Array](#sortedSquares)|[Duplicate Zeros](#duplicateZeros)|[-](#)|[-](#)|
+[-](#)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
@@ -645,4 +645,17 @@ nums is sorted in non-decreasing order.
 
 #### Solutions :
   * [sortedSquares.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/sortedSquares.py)
+---
+
+
+### Duplicate Zeros <a name="duplicateZeros"></a>
+#### Challenge :
+Given a fixed length array arr of integers, duplicate each occurrence of zero, shifting the remaining elements to the right.
+
+Note that elements beyond the length of the original array are not written.
+
+Do the above modifications to the input array in place, do not return anything from your function.
+
+#### Solutions :
+  * [duplicateZeros.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/duplicateZeros.py)
 ---
