@@ -17,7 +17,7 @@ Programming Challenges and Solutions for Fun
 |[Merge Two Sorted Lists](#mergeTwoLists)|[Maximum Depth of Binary Tree](#maxDepth)|[Factorial](#Factorial)|[Climbing Stairs](#climbStairs)|
 |[Determine Whether Matrix Can Be Obtained By Rotation](#findRotation)|[Reduction Operations to Make the Array Elements Equal](#reductionOperations)|[Pascal's Triangle II](#PascalTriangle)|[Max Consecutive Ones](#MaxConsecutiveOnes)|
 [Squares of a Sorted Array](#sortedSquares)|[Duplicate Zeros](#duplicateZeros)|[Pow(x, n)](#myPow)|[Merge Triplets to Form Target Triplet](#mergeTriplets)|
-[-](#)|[-](#)|[-](#)|[-](#)|
+[Redistribute Characters to Make All Strings Equal](#makeEqual)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
@@ -680,4 +680,16 @@ Return true if it is possible to obtain the target triplet [x, y, z] as an eleme
 
 #### Solutions :
   * [mergeTriplets.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/mergeTriplets.py)
+---
+
+### Redistribute Characters to Make All Strings Equal <a name="makeEqual"></a>
+#### Challenge :
+You are given an array of strings words (0-indexed).
+
+In one operation, pick two distinct indices i and j, where words[i] is a non-empty string, and move any character from words[i] to any position in words[j].
+
+Return true if you can make every string in words equal using any number of operations, and false otherwise.
+
+#### Solutions :
+  * [makeEqual.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/makeEqual.py)
 ---
