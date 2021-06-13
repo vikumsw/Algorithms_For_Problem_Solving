@@ -16,7 +16,7 @@ Programming Challenges and Solutions for Fun
 |[Find Peak Element](#findPeakElement)|[Reverse Linked List](#reverseList)|[Swap Nodes in Pairs](#swapPairs)|[Fibonacci Number ](#fib)|
 |[Merge Two Sorted Lists](#mergeTwoLists)|[Maximum Depth of Binary Tree](#maxDepth)|[Factorial](#Factorial)|[Climbing Stairs](#climbStairs)|
 |[Determine Whether Matrix Can Be Obtained By Rotation](#findRotation)|[Reduction Operations to Make the Array Elements Equal](#reductionOperations)|[Pascal's Triangle II](#PascalTriangle)|[Max Consecutive Ones](#MaxConsecutiveOnes)|
-[Squares of a Sorted Array](#sortedSquares)|[Duplicate Zeros](#duplicateZeros)|[Pow(x, n)](#myPow)|[-](#)|
+[Squares of a Sorted Array](#sortedSquares)|[Duplicate Zeros](#duplicateZeros)|[Pow(x, n)](#myPow)|[Merge Triplets to Form Target Triplet](#mergeTriplets)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
@@ -666,4 +666,18 @@ Implement pow(x, n), which calculates x raised to the power n (i.e., x^n).
 
 #### Solutions :
   * [myPow.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/myPow.py)
+---
+
+### Merge Triplets to Form Target Triplet <a name="mergeTriplets"></a>
+#### Challenge :
+A triplet is an array of three integers. You are given a 2D integer array triplets, where triplets[i] = [ai, bi, ci] describes the ith triplet. You are also given an integer array target = [x, y, z] that describes the triplet you want to obtain.
+
+To obtain target, you may apply the following operation on triplets any number of times (possibly zero):
+
+Choose two indices (0-indexed) i and j (i != j) and update triplets[j] to become [max(ai, aj), max(bi, bj), max(ci, cj)].
+For example, if triplets[i] = [2, 5, 3] and triplets[j] = [1, 7, 5], triplets[j] will be updated to [max(2, 1), max(5, 7), max(3, 5)] = [2, 7, 5].
+Return true if it is possible to obtain the target triplet [x, y, z] as an element of triplets, or false otherwise.
+
+#### Solutions :
+  * [mergeTriplets.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/mergeTriplets.py)
 ---
