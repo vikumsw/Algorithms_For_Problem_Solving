@@ -17,7 +17,7 @@ Programming Challenges and Solutions for Fun
 |[Merge Two Sorted Lists](#mergeTwoLists)|[Maximum Depth of Binary Tree](#maxDepth)|[Factorial](#Factorial)|[Climbing Stairs](#climbStairs)|
 |[Determine Whether Matrix Can Be Obtained By Rotation](#findRotation)|[Reduction Operations to Make the Array Elements Equal](#reductionOperations)|[Pascal's Triangle II](#PascalTriangle)|[Max Consecutive Ones](#MaxConsecutiveOnes)|
 [Squares of a Sorted Array](#sortedSquares)|[Duplicate Zeros](#duplicateZeros)|[Pow(x, n)](#myPow)|[Merge Triplets to Form Target Triplet](#mergeTriplets)|
-[Redistribute Characters to Make All Strings Equal](#makeEqual)|[-](#)|[-](#)|[-](#)|
+[Redistribute Characters to Make All Strings Equal](#makeEqual)|[Maximum Number of Removable Characters](#maximumRemovals)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
@@ -692,4 +692,18 @@ Return true if you can make every string in words equal using any number of oper
 
 #### Solutions :
   * [makeEqual.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/makeEqual.py)
+---
+
+### Maximum Number of Removable Characters <a name="maximumRemovals"></a>
+#### Challenge :
+You are given two strings s and p where p is a subsequence of s. You are also given a distinct 0-indexed integer array removable containing a subset of indices of s (s is also 0-indexed).
+
+You want to choose an integer k (0 <= k <= removable.length) such that, after removing k characters from s using the first k indices in removable, p is still a subsequence of s. More formally, you will mark the character at s[removable[i]] for each 0 <= i < k, then remove all marked characters and check if p is still a subsequence.
+
+Return the maximum k you can choose such that p is still a subsequence of s after the removals.
+
+A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
+
+#### Solutions :
+  * [maximumRemovals.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/maximumRemovals.py)
 ---
