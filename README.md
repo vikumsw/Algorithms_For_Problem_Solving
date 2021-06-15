@@ -17,7 +17,7 @@ Programming Challenges and Solutions for Fun
 |[Merge Two Sorted Lists](#mergeTwoLists)|[Maximum Depth of Binary Tree](#maxDepth)|[Factorial](#Factorial)|[Climbing Stairs](#climbStairs)|
 |[Determine Whether Matrix Can Be Obtained By Rotation](#findRotation)|[Reduction Operations to Make the Array Elements Equal](#reductionOperations)|[Pascal's Triangle II](#PascalTriangle)|[Max Consecutive Ones](#MaxConsecutiveOnes)|
 [Squares of a Sorted Array](#sortedSquares)|[Duplicate Zeros](#duplicateZeros)|[Pow(x, n)](#myPow)|[Merge Triplets to Form Target Triplet](#mergeTriplets)|
-[Redistribute Characters to Make All Strings Equal](#makeEqual)|[Maximum Number of Removable Characters](#maximumRemovals)|[-](#)|[-](#)|
+[Redistribute Characters to Make All Strings Equal](#makeEqual)|[Maximum Number of Removable Characters](#maximumRemovals)|[K-th Symbol in Grammar](#kthGrammar)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
@@ -706,4 +706,15 @@ A subsequence of a string is a new string generated from the original string wit
 
 #### Solutions :
   * [maximumRemovals.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/maximumRemovals.py)
+---
+
+### K-th Symbol in Grammar <a name="kthGrammar"></a>
+#### Challenge :
+We build a table of n rows (1-indexed). We start by writing 0 in the 1st row. Now in every subsequent row, we look at the previous row and replace each occurrence of 0 with 01, and each occurrence of 1 with 10.
+
+For example, for n = 3, the 1st row is 0, the 2nd row is 01, and the 3rd row is 0110.
+Given two integer n and k, return the kth (1-indexed) symbol in the nth row of a table of n rows.
+
+#### Solutions :
+  * [kthGrammar.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/kthGrammar.py)
 ---
