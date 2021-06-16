@@ -527,6 +527,8 @@ Note: a + b is the concatenation of strings a and b.
 
 #### Solutions :
   * [isInterleave.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/isInterleave.py)
+  * [isInterleave_rec_1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/isInterleave_rec_1.py)
+  * [isInterleave_rec_2.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/isInterleave_rec_2.py)
 ---
 
 
