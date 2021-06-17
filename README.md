@@ -17,7 +17,7 @@ Programming Challenges and Solutions for Fun
 |[Merge Two Sorted Lists](#mergeTwoLists)|[Maximum Depth of Binary Tree](#maxDepth)|[Factorial](#Factorial)|[Climbing Stairs](#climbStairs)|
 |[Determine Whether Matrix Can Be Obtained By Rotation](#findRotation)|[Reduction Operations to Make the Array Elements Equal](#reductionOperations)|[Pascal's Triangle II](#PascalTriangle)|[Max Consecutive Ones](#MaxConsecutiveOnes)|
 [Squares of a Sorted Array](#sortedSquares)|[Duplicate Zeros](#duplicateZeros)|[Pow(x, n)](#myPow)|[Merge Triplets to Form Target Triplet](#mergeTriplets)|
-[Redistribute Characters to Make All Strings Equal](#makeEqual)|[Maximum Number of Removable Characters](#maximumRemovals)|[K-th Symbol in Grammar](#kthGrammar)|[-](#)|
+[Redistribute Characters to Make All Strings Equal](#makeEqual)|[Maximum Number of Removable Characters](#maximumRemovals)|[K-th Symbol in Grammar](#kthGrammar)|[Decode Ways](#numDecodings)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
@@ -719,4 +719,26 @@ Given two integer n and k, return the kth (1-indexed) symbol in the nth row of a
 
 #### Solutions :
   * [kthGrammar.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/kthGrammar.py)
+---
+
+### Decode Ways <a name="numDecodings"></a>
+#### Challenge :
+A message containing letters from A-Z can be encoded into numbers using the following mapping:
+
+'A' -> "1"
+'B' -> "2"
+...
+'Z' -> "26"
+To decode an encoded message, all the digits must be grouped then mapped back into letters using the reverse of the mapping above (there may be multiple ways). For example, "11106" can be mapped into:
+
+"AAJF" with the grouping (1 1 10 6)
+"KJF" with the grouping (11 10 6)
+Note that the grouping (1 11 06) is invalid because "06" cannot be mapped into 'F' since "6" is different from "06".
+
+Given a string s containing only digits, return the number of ways to decode it.
+
+The answer is guaranteed to fit in a 32-bit integer.
+
+#### Solutions :
+  * [numDecodings_rec.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/numDecodings_rec.py)
 ---
