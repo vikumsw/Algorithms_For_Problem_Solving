@@ -741,4 +741,5 @@ The answer is guaranteed to fit in a 32-bit integer.
 
 #### Solutions :
   * [numDecodings_rec.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/numDecodings_rec.py)
+  * [numDecodings_dp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/numDecodings_dp.py)
 ---
