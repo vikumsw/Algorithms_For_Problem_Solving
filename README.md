@@ -18,7 +18,7 @@ Programming Challenges and Solutions for Fun
 |[Determine Whether Matrix Can Be Obtained By Rotation](#findRotation)|[Reduction Operations to Make the Array Elements Equal](#reductionOperations)|[Pascal's Triangle II](#PascalTriangle)|[Max Consecutive Ones](#MaxConsecutiveOnes)|
 [Squares of a Sorted Array](#sortedSquares)|[Duplicate Zeros](#duplicateZeros)|[Pow(x, n)](#myPow)|[Merge Triplets to Form Target Triplet](#mergeTriplets)|
 [Redistribute Characters to Make All Strings Equal](#makeEqual)|[Maximum Number of Removable Characters](#maximumRemovals)|[K-th Symbol in Grammar](#kthGrammar)|[Decode Ways](#numDecodings)|
-[-](#)|[-](#)|[-](#)|[-](#)|
+[Count Sub Islands](#countSubIslands)|[The Number of Full Rounds You Have Played](#numberOfRounds)|[Largest Odd Number in String](#largestOddNumber)|[Minimum Path Sum](#minPathSum)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 ---
@@ -742,4 +742,86 @@ The answer is guaranteed to fit in a 32-bit integer.
 #### Solutions :
   * [numDecodings_rec.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/numDecodings_rec.py)
   * [numDecodings_dp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/numDecodings_dp.py)
+---
+
+### Minimum Path Sum <a name="minPathSum"></a>
+#### Challenge :
+Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right, which minimizes the sum of all numbers along its path.
+
+Note: You can only move either down or right at any point in time.
+Constraints:
+
+m == grid.length
+
+n == grid[i].length
+
+1 <= m, n <= 200
+
+0 <= grid[i][j] <= 100
+
+#### Solutions :
+  * [minPathSum.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/minPathSum.py)
+---
+
+### Count Sub Islands <a name="countSubIslands"></a>
+#### Challenge :
+You are given two m x n binary matrices grid1 and grid2 containing only 0's (representing water) and 1's (representing land). An island is a group of 1's connected 4-directionally (horizontal or vertical). Any cells outside of the grid are considered water cells.
+
+An island in grid2 is considered a sub-island if there is an island in grid1 that contains all the cells that make up this island in grid2.
+
+Return the number of islands in grid2 that are considered sub-islands.
+
+Constraints:
+
+m == grid1.length == grid2.length
+
+n == grid1[i].length == grid2[i].length
+
+1 <= m, n <= 500
+
+grid1[i][j] and grid2[i][j] are either 0 or 1.
+
+#### Solutions :
+  * [countSubIslands.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/countSubIslands.py)
+---
+
+### The Number of Full Rounds You Have Played <a name="numberOfRounds"></a>
+#### Challenge :
+A new online video game has been released, and in this video game, there are 15-minute rounds scheduled every quarter-hour period. This means that at HH:00, HH:15, HH:30 and HH:45, a new round starts, where HH represents an integer number from 00 to 23. A 24-hour clock is used, so the earliest time in the day is 00:00 and the latest is 23:59.
+
+Given two strings startTime and finishTime in the format "HH:MM" representing the exact time you started and finished playing the game, respectively, calculate the number of full rounds that you played during your game session.
+
+For example, if startTime = "05:20" and finishTime = "05:59" this means you played only one full round from 05:30 to 05:45. You did not play the full round from 05:15 to 05:30 because you started after the round began, and you did not play the full round from 05:45 to 06:00 because you stopped before the round ended.
+If finishTime is earlier than startTime, this means you have played overnight (from startTime to the midnight and from midnight to finishTime).
+
+Return the number of full rounds that you have played if you had started playing at startTime and finished at finishTime.
+
+Constraints:
+
+startTime and finishTime are in the format HH:MM.
+
+00 <= HH <= 23
+
+00 <= MM <= 59
+
+startTime and finishTime are not equal.
+
+#### Solutions :
+  * [numberOfRounds.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/numberOfRounds.py)
+---
+
+### Largest Odd Number in String <a name="largestOddNumber"></a>
+#### Challenge :
+You are given a string num, representing a large integer. Return the largest-valued odd integer (as a string) that is a non-empty substring of num, or an empty string "" if no odd integer exists.
+
+A substring is a contiguous sequence of characters within a string.
+
+Constraints:
+
+1 <= num.length <= 10^5
+
+num only consists of digits and does not contain any leading zeros.
+
+#### Solutions :
+  * [largestOddNumber.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/largestOddNumber.py)
 ---
