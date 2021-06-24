@@ -761,6 +761,7 @@ n == grid[i].length
 
 #### Solutions :
   * [minPathSum.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/minPathSum.py)
+  * [minPathSum_dp.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/minPathSum_dp.py)
 ---
 
 ### Count Sub Islands <a name="countSubIslands"></a>
