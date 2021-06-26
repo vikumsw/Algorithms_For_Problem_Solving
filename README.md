@@ -19,7 +19,7 @@ Programming Challenges and Solutions for Fun
 [Squares of a Sorted Array](#sortedSquares)|[Duplicate Zeros](#duplicateZeros)|[Pow(x, n)](#myPow)|[Merge Triplets to Form Target Triplet](#mergeTriplets)|
 [Redistribute Characters to Make All Strings Equal](#makeEqual)|[Maximum Number of Removable Characters](#maximumRemovals)|[K-th Symbol in Grammar](#kthGrammar)|[Decode Ways](#numDecodings)|
 [Count Sub Islands](#countSubIslands)|[The Number of Full Rounds You Have Played](#numberOfRounds)|[Largest Odd Number in String](#largestOddNumber)|[Minimum Path Sum](#minPathSum)|
-[-](#)|[-](#)|[-](#)|[-](#)|
+[Partition Equal Subset Sum](#canPartition)|[-](#)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -825,4 +825,18 @@ num only consists of digits and does not contain any leading zeros.
 
 #### Solutions :
   * [largestOddNumber.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/largestOddNumber.py)
+---
+
+### Partition Equal Subset Sum <a name="canPartition"></a>
+#### Challenge :
+Given a non-empty array nums containing only positive integers, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.
+
+Constraints:
+
+1 <= nums.length <= 200
+
+1 <= nums[i] <= 100
+
+#### Solutions :
+  * [canPartition.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/canPartition.py)
 ---
