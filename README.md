@@ -19,7 +19,7 @@ Programming Challenges and Solutions for Fun
 [Squares of a Sorted Array](#sortedSquares)|[Duplicate Zeros](#duplicateZeros)|[Pow(x, n)](#myPow)|[Merge Triplets to Form Target Triplet](#mergeTriplets)|
 [Redistribute Characters to Make All Strings Equal](#makeEqual)|[Maximum Number of Removable Characters](#maximumRemovals)|[K-th Symbol in Grammar](#kthGrammar)|[Decode Ways](#numDecodings)|
 [Count Sub Islands](#countSubIslands)|[The Number of Full Rounds You Have Played](#numberOfRounds)|[Largest Odd Number in String](#largestOddNumber)|[Minimum Path Sum](#minPathSum)|
-[Partition Equal Subset Sum](#canPartition)|[-](#)|[-](#)|[-](#)|
+[Partition Equal Subset Sum](#canPartition)|[Maximum Product Difference Between Two Pairs](#maxProductDifference)|[-](#)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -839,4 +839,17 @@ Constraints:
 
 #### Solutions :
   * [canPartition.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/canPartition.py)
+---
+
+### Maximum Product Difference Between Two Pairs <a name="maxProductDifference"></a>
+#### Challenge :
+The product difference between two pairs (a, b) and (c, d) is defined as (a * b) - (c * d).
+
+For example, the product difference between (5, 6) and (2, 7) is (5 * 6) - (2 * 7) = 16.
+Given an integer array nums, choose four distinct indices w, x, y, and z such that the product difference between pairs (nums[w], nums[x]) and (nums[y], nums[z]) is maximized.
+
+Return the maximum such product difference.
+
+#### Solutions :
+  * [maxProductDifference.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/maxProductDifference.py)
 ---
