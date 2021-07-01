@@ -19,7 +19,7 @@ Programming Challenges and Solutions for Fun
 [Squares of a Sorted Array](#sortedSquares)|[Duplicate Zeros](#duplicateZeros)|[Pow(x, n)](#myPow)|[Merge Triplets to Form Target Triplet](#mergeTriplets)|
 [Redistribute Characters to Make All Strings Equal](#makeEqual)|[Maximum Number of Removable Characters](#maximumRemovals)|[K-th Symbol in Grammar](#kthGrammar)|[Decode Ways](#numDecodings)|
 [Count Sub Islands](#countSubIslands)|[The Number of Full Rounds You Have Played](#numberOfRounds)|[Largest Odd Number in String](#largestOddNumber)|[Minimum Path Sum](#minPathSum)|
-[Partition Equal Subset Sum](#canPartition)|[Maximum Product Difference Between Two Pairs](#maxProductDifference)|[-](#)|[-](#)|
+[Partition Equal Subset Sum](#canPartition)|[Maximum Product Difference Between Two Pairs](#maxProductDifference)|[Cyclically Rotating a Grid](#rotateGrid)|[-](#)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -853,3 +853,12 @@ Return the maximum such product difference.
 #### Solutions :
   * [maxProductDifference.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/maxProductDifference.py)
 ---
+
+### Cyclically Rotating a Grid <a name="rotateGrid"></a>
+#### Challenge :
+[Read the problme description here](https://leetcode.com/problems/cyclically-rotating-a-grid/)
+
+#### Solutions :
+  * [rotateGrid.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/rotateGrid.py)
+---
+
