@@ -19,7 +19,7 @@ Programming Challenges and Solutions for Fun
 [Squares of a Sorted Array](#sortedSquares)|[Duplicate Zeros](#duplicateZeros)|[Pow(x, n)](#myPow)|[Merge Triplets to Form Target Triplet](#mergeTriplets)|
 [Redistribute Characters to Make All Strings Equal](#makeEqual)|[Maximum Number of Removable Characters](#maximumRemovals)|[K-th Symbol in Grammar](#kthGrammar)|[Decode Ways](#numDecodings)|
 [Count Sub Islands](#countSubIslands)|[The Number of Full Rounds You Have Played](#numberOfRounds)|[Largest Odd Number in String](#largestOddNumber)|[Minimum Path Sum](#minPathSum)|
-[Partition Equal Subset Sum](#canPartition)|[Maximum Product Difference Between Two Pairs](#maxProductDifference)|[Cyclically Rotating a Grid](#rotateGrid)|[-](#)|
+[Partition Equal Subset Sum](#canPartition)|[Maximum Product Difference Between Two Pairs](#maxProductDifference)|[Cyclically Rotating a Grid](#rotateGrid)|[Unique Binary Search Trees II](#generateTrees)|
 [-](#)|[-](#)|[-](#)|[-](#)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -856,9 +856,18 @@ Return the maximum such product difference.
 
 ### Cyclically Rotating a Grid <a name="rotateGrid"></a>
 #### Challenge :
-[Read the problme description here](https://leetcode.com/problems/cyclically-rotating-a-grid/)
+[Read the problem description here](https://leetcode.com/problems/cyclically-rotating-a-grid/)
 
 #### Solutions :
   * [rotateGrid.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/rotateGrid.py)
 ---
 
+###  Unique Binary Search Trees II <a name="generateTrees"></a>
+#### Challenge :
+Given an integer n, return all the structurally unique BST's (binary search trees), which has exactly n nodes of unique values from 1 to n. Return the answer in any order.
+
+[Read the problem description here](https://leetcode.com/problems/unique-binary-search-trees-ii/)
+
+#### Solutions :
+  * [generateTrees.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/generateTrees.py)
+---
