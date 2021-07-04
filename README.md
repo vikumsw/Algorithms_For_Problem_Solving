@@ -21,6 +21,10 @@ Programming Challenges and Solutions for Fun
 [Count Sub Islands](#countSubIslands)|[The Number of Full Rounds You Have Played](#numberOfRounds)|[Largest Odd Number in String](#largestOddNumber)|[Minimum Path Sum](#minPathSum)|
 [Partition Equal Subset Sum](#canPartition)|[Maximum Product Difference Between Two Pairs](#maxProductDifference)|[Cyclically Rotating a Grid](#rotateGrid)|[Unique Binary Search Trees II](#generateTrees)|
 [Find Numbers with Even Number of Digits](#findNumbers)|[Merge Sorted Array](#merge)|[Remove Element](#removeElement)|[Remove Linked List Elements](#removeElements)|
+|[Add Minimum Number of Rungs](#addRungs)|[-](#)|[-](#)|[-](#)|
+|[-](#)|[-](#)|[-](#)|[-](#)|
+|[-](#)|[-](#)|[-](#)|[-](#)|
+|[-](#)|[-](#)|[-](#)|[-](#)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
 #### Challenge : 
@@ -912,4 +916,16 @@ Given the head of a linked list and an integer val, remove all the nodes of the 
 
 #### Solutions :
   * [removeElements.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/removeElements.py)
+---
+
+###  Add Minimum Number of Rungs <a name="addRungs"></a>
+#### Challenge :
+You are given a strictly increasing integer array rungs that represents the height of rungs on a ladder. You are currently on the floor at height 0, and you want to reach the last rung.
+
+You are also given an integer dist. You can only climb to the next highest rung if the distance between where you are currently at (the floor or on a rung) and the next rung is at most dist. You are able to insert rungs at any positive integer height if a rung is not already there.
+
+Return the minimum number of rungs that must be added to the ladder in order for you to climb to the last rung.
+
+#### Solutions :
+  * [addRungs.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/addRungs.py)
 ---
