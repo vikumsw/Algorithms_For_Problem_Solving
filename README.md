@@ -21,7 +21,7 @@ Programming Challenges and Solutions for Fun
 [Count Sub Islands](#countSubIslands)|[The Number of Full Rounds You Have Played](#numberOfRounds)|[Largest Odd Number in String](#largestOddNumber)|[Minimum Path Sum](#minPathSum)|
 [Partition Equal Subset Sum](#canPartition)|[Maximum Product Difference Between Two Pairs](#maxProductDifference)|[Cyclically Rotating a Grid](#rotateGrid)|[Unique Binary Search Trees II](#generateTrees)|
 [Find Numbers with Even Number of Digits](#findNumbers)|[Merge Sorted Array](#merge)|[Remove Element](#removeElement)|[Remove Linked List Elements](#removeElements)|
-|[Add Minimum Number of Rungs](#addRungs)|[-](#)|[-](#)|[-](#)|
+|[Add Minimum Number of Rungs](#addRungs)|[Maximum Number of Words You Can Type](#canBeTypedWords)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
@@ -928,4 +928,14 @@ Return the minimum number of rungs that must be added to the ladder in order for
 
 #### Solutions :
   * [addRungs.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/addRungs.py)
+---
+
+###  Maximum Number of Words You Can Type <a name="canBeTypedWords"></a>
+#### Challenge :
+There is a malfunctioning keyboard where some letter keys do not work. All other keys on the keyboard work properly.
+
+Given a string text of words separated by a single space (no leading or trailing spaces) and a string brokenLetters of all distinct letter keys that are broken, return the number of words in text you can fully type using this keyboard.
+
+#### Solutions :
+  * [canBeTypedWords.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/canBeTypedWords.py)
 ---
