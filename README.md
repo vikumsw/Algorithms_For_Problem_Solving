@@ -23,7 +23,7 @@ Programming Challenges and Solutions for Fun
 [Find Numbers with Even Number of Digits](#findNumbers)|[Merge Sorted Array](#merge)|[Remove Element](#removeElement)|[Remove Linked List Elements](#removeElements)|
 |[Add Minimum Number of Rungs](#addRungs)|[Maximum Number of Words You Can Type](#canBeTypedWords)|[Sum of Digits of String After Convert](#getLucky)|[Remove Duplicates from Sorted Array](#removeDuplicates)|
 |[Check If N and Its Double Exist](#checkIfExist)|[Linked List Cycle](#hasCycle)|[Linked List Cycle II](#detectCycle)|[Maximum Number of Weeks for Which You Can Work](#numberOfWeeks)|
-|[-](#)|[-](#)|[-](#)|[-](#)|
+|[Check If String Is a Prefix of Array](#isPrefixString)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -1027,4 +1027,17 @@ Return the maximum number of weeks you would be able to work on the projects wit
   * [numberOfWeeks1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/numberOfWeeks1.py)
   * [numberOfWeeks2.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/numberOfWeeks2.py)
   * [numberOfWeeks3.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/numberOfWeeks3.py)
+---
+
+###  Check If String Is a Prefix of Array <a name="isPrefixString"></a>
+#### Challenge :
+Given a string s and an array of strings words, determine whether s is a prefix string of words.
+
+A string s is a prefix string of words if s can be made by concatenating the first k strings in words for some positive k no larger than words.length.
+
+Return true if s is a prefix string of words, or false otherwise.
+#### Solutions :
+  * [isPrefixString1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/isPrefixString1.py)
+  * [isPrefixString2.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/isPrefixString2.py)
+  * [isPrefixString3.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/isPrefixString3.cpp)
 ---
