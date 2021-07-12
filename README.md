@@ -20,7 +20,7 @@ Programming Challenges and Solutions for Fun
 [Redistribute Characters to Make All Strings Equal](#makeEqual)|[Maximum Number of Removable Characters](#maximumRemovals)|[K-th Symbol in Grammar](#kthGrammar)|[Decode Ways](#numDecodings)|
 [Count Sub Islands](#countSubIslands)|[The Number of Full Rounds You Have Played](#numberOfRounds)|[Largest Odd Number in String](#largestOddNumber)|[Minimum Path Sum](#minPathSum)|
 [Partition Equal Subset Sum](#canPartition)|[Maximum Product Difference Between Two Pairs](#maxProductDifference)|[Cyclically Rotating a Grid](#rotateGrid)|[Unique Binary Search Trees II](#generateTrees)|
-[-](#)|[-](#)|[-](#)|[-](#)|
+[Find Numbers with Even Number of Digits](#findNumbers)|[-](#)|[-](#)|[-](#)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
 #### Challenge : 
@@ -870,4 +870,12 @@ Given an integer n, return all the structurally unique BST's (binary search tree
 
 #### Solutions :
   * [generateTrees.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/generateTrees.py)
+---
+
+###  Find Numbers with Even Number of Digits <a name="findNumbers"></a>
+#### Challenge :
+Given an array nums of integers, return how many of them contain an even number of digits.
+
+#### Solutions :
+  * [findNumbers.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findNumbers.py)
 ---
