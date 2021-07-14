@@ -20,7 +20,7 @@ Programming Challenges and Solutions for Fun
 [Redistribute Characters to Make All Strings Equal](#makeEqual)|[Maximum Number of Removable Characters](#maximumRemovals)|[K-th Symbol in Grammar](#kthGrammar)|[Decode Ways](#numDecodings)|
 [Count Sub Islands](#countSubIslands)|[The Number of Full Rounds You Have Played](#numberOfRounds)|[Largest Odd Number in String](#largestOddNumber)|[Minimum Path Sum](#minPathSum)|
 [Partition Equal Subset Sum](#canPartition)|[Maximum Product Difference Between Two Pairs](#maxProductDifference)|[Cyclically Rotating a Grid](#rotateGrid)|[Unique Binary Search Trees II](#generateTrees)|
-[Find Numbers with Even Number of Digits](#findNumbers)|[Merge Sorted Array](#merge)|[-](#)|[-](#)|
+[Find Numbers with Even Number of Digits](#findNumbers)|[Merge Sorted Array](#merge)|[Remove Element](#removeElement)|[-](#)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
 #### Challenge : 
@@ -890,4 +890,18 @@ The final sorted array should not be returned by the function, but instead be st
 
 #### Solutions :
   * [merge.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/merge.py)
+---
+
+###  Remove Element <a name="removeElement"></a>
+#### Challenge :
+Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The relative order of the elements may be changed.
+
+Since it is impossible to change the length of the array in some languages, you must instead have the result be placed in the first part of the array nums. More formally, if there are k elements after removing the duplicates, then the first k elements of nums should hold the final result. It does not matter what you leave beyond the first k elements.
+
+Return k after placing the final result in the first k slots of nums.
+
+Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
+
+#### Solutions :
+  * [removeElement.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/removeElement.py)
 ---
