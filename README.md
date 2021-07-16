@@ -20,7 +20,7 @@ Programming Challenges and Solutions for Fun
 [Redistribute Characters to Make All Strings Equal](#makeEqual)|[Maximum Number of Removable Characters](#maximumRemovals)|[K-th Symbol in Grammar](#kthGrammar)|[Decode Ways](#numDecodings)|
 [Count Sub Islands](#countSubIslands)|[The Number of Full Rounds You Have Played](#numberOfRounds)|[Largest Odd Number in String](#largestOddNumber)|[Minimum Path Sum](#minPathSum)|
 [Partition Equal Subset Sum](#canPartition)|[Maximum Product Difference Between Two Pairs](#maxProductDifference)|[Cyclically Rotating a Grid](#rotateGrid)|[Unique Binary Search Trees II](#generateTrees)|
-[Find Numbers with Even Number of Digits](#findNumbers)|[-](#)|[-](#)|[-](#)|
+[Find Numbers with Even Number of Digits](#findNumbers)|[Merge Sorted Array](#merge)|[-](#)|[-](#)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
 #### Challenge : 
@@ -878,4 +878,16 @@ Given an array nums of integers, return how many of them contain an even number 
 
 #### Solutions :
   * [findNumbers.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findNumbers.py)
+---
+
+###  Merge Sorted Array <a name="merge"></a>
+#### Challenge :
+You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
+
+Merge nums1 and nums2 into a single array sorted in non-decreasing order.
+
+The final sorted array should not be returned by the function, but instead be stored inside the array nums1. To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should be merged, and the last n elements are set to 0 and should be ignored. nums2 has a length of n.
+
+#### Solutions :
+  * [merge.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/merge.py)
 ---
