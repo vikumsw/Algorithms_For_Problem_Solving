@@ -20,7 +20,7 @@ Programming Challenges and Solutions for Fun
 [Redistribute Characters to Make All Strings Equal](#makeEqual)|[Maximum Number of Removable Characters](#maximumRemovals)|[K-th Symbol in Grammar](#kthGrammar)|[Decode Ways](#numDecodings)|
 [Count Sub Islands](#countSubIslands)|[The Number of Full Rounds You Have Played](#numberOfRounds)|[Largest Odd Number in String](#largestOddNumber)|[Minimum Path Sum](#minPathSum)|
 [Partition Equal Subset Sum](#canPartition)|[Maximum Product Difference Between Two Pairs](#maxProductDifference)|[Cyclically Rotating a Grid](#rotateGrid)|[Unique Binary Search Trees II](#generateTrees)|
-[Find Numbers with Even Number of Digits](#findNumbers)|[Merge Sorted Array](#merge)|[Remove Element](#removeElement)|[-](#)|
+[Find Numbers with Even Number of Digits](#findNumbers)|[Merge Sorted Array](#merge)|[Remove Element](#removeElement)|[Remove Linked List Elements](#removeElements)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
 #### Challenge : 
@@ -904,4 +904,12 @@ Do not allocate extra space for another array. You must do this by modifying the
 
 #### Solutions :
   * [removeElement.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/removeElement.py)
+---
+
+###  Remove Linked List Elements <a name="removeElements"></a>
+#### Challenge :
+Given the head of a linked list and an integer val, remove all the nodes of the linked list that has Node.val == val, and return the new head.
+
+#### Solutions :
+  * [removeElements.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/removeElements.py)
 ---
