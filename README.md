@@ -23,7 +23,10 @@ Programming Challenges and Solutions for Fun
 [Find Numbers with Even Number of Digits](#findNumbers)|[Merge Sorted Array](#merge)|[Remove Element](#removeElement)|[Remove Linked List Elements](#removeElements)|
 |[Add Minimum Number of Rungs](#addRungs)|[Maximum Number of Words You Can Type](#canBeTypedWords)|[Sum of Digits of String After Convert](#getLucky)|[Remove Duplicates from Sorted Array](#removeDuplicates)|
 |[Check If N and Its Double Exist](#checkIfExist)|[Linked List Cycle](#hasCycle)|[Linked List Cycle II](#detectCycle)|[Maximum Number of Weeks for Which You Can Work](#numberOfWeeks)|
-|[Check If String Is a Prefix of Array](#isPrefixString)|[-](#)|[-](#)|[-](#)|
+|[Check If String Is a Prefix of Array](#isPrefixString)|[Remove Stones to Minimize the Total](#minStoneSum)|[-](#)|[-](#)|
+|[-](#)|[-](#)|[-](#)|[-](#)|
+|[-](#)|[-](#)|[-](#)|[-](#)|
+|[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
@@ -1040,4 +1043,19 @@ Return true if s is a prefix string of words, or false otherwise.
   * [isPrefixString1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/isPrefixString1.py)
   * [isPrefixString2.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/isPrefixString2.py)
   * [isPrefixString3.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/isPrefixString3.cpp)
+---
+
+###  Remove Stones to Minimize the Total <a name="minStoneSum"></a>
+#### Challenge :
+You are given a 0-indexed integer array piles, where piles[i] represents the number of stones in the ith pile, and an integer k. You should apply the following operation exactly k times:
+
+Choose any piles[i] and remove floor(piles[i] / 2) stones from it.
+Notice that you can apply the operation on the same pile more than once.
+
+Return the minimum possible total number of stones remaining after applying the k operations.
+
+floor(x) is the greatest integer that is smaller than or equal to x (i.e., rounds x down).
+#### Solutions :
+  * [minStoneSum1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/minStoneSum1.py)
+  * [minStoneSum2.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/minStoneSum2.cpp)
 ---
