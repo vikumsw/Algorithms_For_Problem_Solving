@@ -983,4 +983,5 @@ Do not allocate extra space for another array. You must do this by modifying the
 
 #### Solutions :
   * [checkIfExist.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/checkIfExist.py)
+  * [checkIfExist1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/checkIfExist1.py)
 ---
