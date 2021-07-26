@@ -21,7 +21,7 @@ Programming Challenges and Solutions for Fun
 [Count Sub Islands](#countSubIslands)|[The Number of Full Rounds You Have Played](#numberOfRounds)|[Largest Odd Number in String](#largestOddNumber)|[Minimum Path Sum](#minPathSum)|
 [Partition Equal Subset Sum](#canPartition)|[Maximum Product Difference Between Two Pairs](#maxProductDifference)|[Cyclically Rotating a Grid](#rotateGrid)|[Unique Binary Search Trees II](#generateTrees)|
 [Find Numbers with Even Number of Digits](#findNumbers)|[Merge Sorted Array](#merge)|[Remove Element](#removeElement)|[Remove Linked List Elements](#removeElements)|
-|[Add Minimum Number of Rungs](#addRungs)|[Maximum Number of Words You Can Type](#canBeTypedWords)|[-](#)|[-](#)|
+|[Add Minimum Number of Rungs](#addRungs)|[Maximum Number of Words You Can Type](#canBeTypedWords)|[Sum of Digits of String After Convert](#getLucky)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
@@ -938,4 +938,21 @@ Given a string text of words separated by a single space (no leading or trailing
 
 #### Solutions :
   * [canBeTypedWords.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/canBeTypedWords.py)
+---
+
+###  Sum of Digits of String After Convert <a name="getLucky"></a>
+#### Challenge :
+You are given a string s consisting of lowercase English letters, and an integer k.
+
+First, convert s into an integer by replacing each letter with its position in the alphabet (i.e., replace 'a' with 1, 'b' with 2, ..., 'z' with 26). Then, transform the integer by replacing it with the sum of its digits. Repeat the transform operation k times in total.
+
+For example, if s = "zbax" and k = 2, then the resulting integer would be 8 by the following operations:
+
+Convert: "zbax" ➝ "(26)(2)(1)(24)" ➝ "262124" ➝ 262124
+Transform #1: 262124 ➝ 2 + 6 + 2 + 1 + 2 + 4 ➝ 17
+Transform #2: 17 ➝ 1 + 7 ➝ 8
+Return the resulting integer after performing the operations described above.
+
+#### Solutions :
+  * [getLucky.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/getLucky.py)
 ---
