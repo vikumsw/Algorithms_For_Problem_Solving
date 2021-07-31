@@ -22,7 +22,7 @@ Programming Challenges and Solutions for Fun
 [Partition Equal Subset Sum](#canPartition)|[Maximum Product Difference Between Two Pairs](#maxProductDifference)|[Cyclically Rotating a Grid](#rotateGrid)|[Unique Binary Search Trees II](#generateTrees)|
 [Find Numbers with Even Number of Digits](#findNumbers)|[Merge Sorted Array](#merge)|[Remove Element](#removeElement)|[Remove Linked List Elements](#removeElements)|
 |[Add Minimum Number of Rungs](#addRungs)|[Maximum Number of Words You Can Type](#canBeTypedWords)|[Sum of Digits of String After Convert](#getLucky)|[Remove Duplicates from Sorted Array](#removeDuplicates)|
-|[Check If N and Its Double Exist](#checkIfExist)|[-](#)|[-](#)|[-](#)|
+|[Check If N and Its Double Exist](#checkIfExist)|[Linked List Cycle](#hasCycle)|[Linked List Cycle II](#detectCycle)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 ---
@@ -984,4 +984,30 @@ Do not allocate extra space for another array. You must do this by modifying the
 #### Solutions :
   * [checkIfExist.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/checkIfExist.py)
   * [checkIfExist1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/checkIfExist1.py)
+---
+
+###  Linked List Cycle II <a name="detectCycle"></a>
+#### Challenge :
+Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
+
+There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail's next pointer is connected to. Note that pos is not passed as a parameter.
+
+Notice that you should not modify the linked list.
+
+ 
+#### Solutions :
+  * [detectCycle1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/detectCycle1.py)
+  * [detectCycle2.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/detectCycle2.py)
+---
+
+###  Linked List Cycle <a name="hasCycle"></a>
+#### Challenge :
+Given head, the head of a linked list, determine if the linked list has a cycle in it.
+
+There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail's next pointer is connected to. Note that pos is not passed as a parameter.
+
+Return true if there is a cycle in the linked list. Otherwise, return false.
+#### Solutions :
+  * [hasCycle1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/hasCycle1.py)
+  * [hasCycle2.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/hasCycle2.py)
 ---
