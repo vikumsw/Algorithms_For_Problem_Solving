@@ -22,7 +22,7 @@ Programming Challenges and Solutions for Fun
 [Partition Equal Subset Sum](#canPartition)|[Maximum Product Difference Between Two Pairs](#maxProductDifference)|[Cyclically Rotating a Grid](#rotateGrid)|[Unique Binary Search Trees II](#generateTrees)|
 [Find Numbers with Even Number of Digits](#findNumbers)|[Merge Sorted Array](#merge)|[Remove Element](#removeElement)|[Remove Linked List Elements](#removeElements)|
 |[Add Minimum Number of Rungs](#addRungs)|[Maximum Number of Words You Can Type](#canBeTypedWords)|[Sum of Digits of String After Convert](#getLucky)|[Remove Duplicates from Sorted Array](#removeDuplicates)|
-|[Check If N and Its Double Exist](#checkIfExist)|[Linked List Cycle](#hasCycle)|[Linked List Cycle II](#detectCycle)|[-](#)|
+|[Check If N and Its Double Exist](#checkIfExist)|[Linked List Cycle](#hasCycle)|[Linked List Cycle II](#detectCycle)|[Maximum Number of Weeks for Which You Can Work](#numberOfWeeks)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 ---
@@ -1010,4 +1010,21 @@ Return true if there is a cycle in the linked list. Otherwise, return false.
 #### Solutions :
   * [hasCycle1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/hasCycle1.py)
   * [hasCycle2.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/hasCycle2.py)
+---
+
+###  Maximum Number of Weeks for Which You Can Work <a name="numberOfWeeks"></a>
+#### Challenge :
+There are n projects numbered from 0 to n - 1. You are given an integer array milestones where each milestones[i] denotes the number of milestones the ith project has.
+
+You can work on the projects following these two rules:
+
+Every week, you will finish exactly one milestone of one project. You must work every week.
+You cannot work on two milestones from the same project for two consecutive weeks.
+Once all the milestones of all the projects are finished, or if the only milestones that you can work on will cause you to violate the above rules, you will stop working. Note that you may not be able to finish every project's milestones due to these constraints.
+
+Return the maximum number of weeks you would be able to work on the projects without violating the rules mentioned above.
+#### Solutions :
+  * [numberOfWeeks1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/numberOfWeeks1.py)
+  * [numberOfWeeks2.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/numberOfWeeks2.py)
+  * [numberOfWeeks3.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/numberOfWeeks3.py)
 ---
