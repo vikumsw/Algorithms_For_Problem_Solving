@@ -23,7 +23,7 @@ Programming Challenges and Solutions for Fun
 [Find Numbers with Even Number of Digits](#findNumbers)|[Merge Sorted Array](#merge)|[Remove Element](#removeElement)|[Remove Linked List Elements](#removeElements)|
 |[Add Minimum Number of Rungs](#addRungs)|[Maximum Number of Words You Can Type](#canBeTypedWords)|[Sum of Digits of String After Convert](#getLucky)|[Remove Duplicates from Sorted Array](#removeDuplicates)|
 |[Check If N and Its Double Exist](#checkIfExist)|[Linked List Cycle](#hasCycle)|[Linked List Cycle II](#detectCycle)|[Maximum Number of Weeks for Which You Can Work](#numberOfWeeks)|
-|[Check If String Is a Prefix of Array](#isPrefixString)|[Remove Stones to Minimize the Total](#minStoneSum)|[-](#)|[-](#)|
+|[Check If String Is a Prefix of Array](#isPrefixString)|[Remove Stones to Minimize the Total](#minStoneSum)|[Minimum Number of Swaps to Make the String Balanced](#minSwaps)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
@@ -1058,4 +1058,21 @@ floor(x) is the greatest integer that is smaller than or equal to x (i.e., round
 #### Solutions :
   * [minStoneSum1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/minStoneSum1.py)
   * [minStoneSum2.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/minStoneSum2.cpp)
+---
+
+###  Minimum Number of Swaps to Make the String Balanced <a name="minSwaps"></a>
+#### Challenge :
+You are given a 0-indexed string s of even length n. The string consists of exactly n / 2 opening brackets '[' and n / 2 closing brackets ']'.
+
+A string is called balanced if and only if:
+
+It is the empty string, or
+It can be written as AB, where both A and B are balanced strings, or
+It can be written as [C], where C is a balanced string.
+You may swap the brackets at any two indices any number of times.
+
+Return the minimum number of swaps to make s balanced.
+#### Solutions :
+  * [minSwaps1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/minSwaps1.py)
+  * [minSwaps2.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/minSwaps2.cpp)
 ---
