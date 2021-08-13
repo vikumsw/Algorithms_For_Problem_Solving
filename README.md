@@ -24,7 +24,7 @@ Programming Challenges and Solutions for Fun
 |[Add Minimum Number of Rungs](#addRungs)|[Maximum Number of Words You Can Type](#canBeTypedWords)|[Sum of Digits of String After Convert](#getLucky)|[Remove Duplicates from Sorted Array](#removeDuplicates)|
 |[Check If N and Its Double Exist](#checkIfExist)|[Linked List Cycle](#hasCycle)|[Linked List Cycle II](#detectCycle)|[Maximum Number of Weeks for Which You Can Work](#numberOfWeeks)|
 |[Check If String Is a Prefix of Array](#isPrefixString)|[Remove Stones to Minimize the Total](#minStoneSum)|[Minimum Number of Swaps to Make the String Balanced](#minSwaps)|[Find the Duplicate Number](#findDuplicate)|
-|[-](#)|[-](#)|[-](#)|[-](#)|
+|[Number of Strings That Appear as Substrings in Word](#numOfStrings)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
@@ -1089,4 +1089,14 @@ You must solve the problem without modifying the array nums and uses only consta
   * [findDuplicate2.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/findDuplicate2.cpp)
   * [findDuplicate3.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/findDuplicate3.cpp)
   * [findDuplicate4.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/findDuplicate4.cpp)
+---
+
+###  Number of Strings That Appear as Substrings in Word <a name="numOfStrings"></a>
+#### Challenge :
+Given an array of strings patterns and a string word, return the number of strings in patterns that exist as a substring in word.
+
+A substring is a contiguous sequence of characters within a string.
+#### Solutions :
+  * [numOfStrings.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/numOfStrings.py)
+  * [numOfStrings.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/numOfStrings.cpp)
 ---
