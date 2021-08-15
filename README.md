@@ -24,7 +24,7 @@ Programming Challenges and Solutions for Fun
 |[Add Minimum Number of Rungs](#addRungs)|[Maximum Number of Words You Can Type](#canBeTypedWords)|[Sum of Digits of String After Convert](#getLucky)|[Remove Duplicates from Sorted Array](#removeDuplicates)|
 |[Check If N and Its Double Exist](#checkIfExist)|[Linked List Cycle](#hasCycle)|[Linked List Cycle II](#detectCycle)|[Maximum Number of Weeks for Which You Can Work](#numberOfWeeks)|
 |[Check If String Is a Prefix of Array](#isPrefixString)|[Remove Stones to Minimize the Total](#minStoneSum)|[Minimum Number of Swaps to Make the String Balanced](#minSwaps)|[Find the Duplicate Number](#findDuplicate)|
-|[Number of Strings That Appear as Substrings in Word](#numOfStrings)|[Array With Elements Not Equal to Average of Neighbors](#rearrangeArray)|[-](#)|[-](#)|
+|[Number of Strings That Appear as Substrings in Word](#numOfStrings)|[Array With Elements Not Equal to Average of Neighbors](#rearrangeArray)|[Minimum Non-Zero Product of the Array Elements](#minNonZeroProduct)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
@@ -1110,4 +1110,19 @@ More formally, the rearranged array should have the property such that for every
 Return any rearrangement of nums that meets the requirements.
 #### Solutions :
   * [rearrangeArray.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/rearrangeArray.py)
+---
+
+###  Minimum Non-Zero Product of the Array Elements <a name="minNonZeroProduct"></a>
+#### Challenge :
+You are given a positive integer p. Consider an array nums (1-indexed) that consists of the integers in the inclusive range [1, 2p - 1] in their binary representations. You are allowed to do the following operation any number of times:
+
+Choose two elements x and y from nums.
+Choose a bit in x and swap it with its corresponding bit in y. Corresponding bit refers to the bit that is in the same position in the other integer.
+For example, if x = 1101 and y = 0011, after swapping the 2nd bit from the right, we have x = 1111 and y = 0001.
+
+Find the minimum non-zero product of nums after performing the above operation any number of times. Return this product modulo 109 + 7.
+
+Note: The answer should be the minimum product before the modulo operation is done.
+#### Solutions :
+  * [minNonZeroProduct.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/minNonZeroProduct.py)
 ---
