@@ -24,7 +24,7 @@ Programming Challenges and Solutions for Fun
 |[Add Minimum Number of Rungs](#addRungs)|[Maximum Number of Words You Can Type](#canBeTypedWords)|[Sum of Digits of String After Convert](#getLucky)|[Remove Duplicates from Sorted Array](#removeDuplicates)|
 |[Check If N and Its Double Exist](#checkIfExist)|[Linked List Cycle](#hasCycle)|[Linked List Cycle II](#detectCycle)|[Maximum Number of Weeks for Which You Can Work](#numberOfWeeks)|
 |[Check If String Is a Prefix of Array](#isPrefixString)|[Remove Stones to Minimize the Total](#minStoneSum)|[Minimum Number of Swaps to Make the String Balanced](#minSwaps)|[Find the Duplicate Number](#findDuplicate)|
-|[Number of Strings That Appear as Substrings in Word](#numOfStrings)|[-](#)|[-](#)|[-](#)|
+|[Number of Strings That Appear as Substrings in Word](#numOfStrings)|[Array With Elements Not Equal to Average of Neighbors](#rearrangeArray)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
@@ -1099,4 +1099,15 @@ A substring is a contiguous sequence of characters within a string.
 #### Solutions :
   * [numOfStrings.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/numOfStrings.py)
   * [numOfStrings.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/numOfStrings.cpp)
+---
+
+###  Array With Elements Not Equal to Average of Neighbors <a name="rearrangeArray"></a>
+#### Challenge :
+ou are given a 0-indexed array nums of distinct integers. You want to rearrange the elements in the array such that every element in the rearranged array is not equal to the average of its neighbors.
+
+More formally, the rearranged array should have the property such that for every i in the range 1 <= i < nums.length - 1, (nums[i-1] + nums[i+1]) / 2 is not equal to nums[i].
+
+Return any rearrangement of nums that meets the requirements.
+#### Solutions :
+  * [rearrangeArray.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/rearrangeArray.py)
 ---
