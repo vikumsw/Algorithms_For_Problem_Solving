@@ -6,5 +6,4 @@ class Solution:
         for e in properties:
             if m>e[1]: count+=1
             m = max(m,e[1])
-            
         return count
