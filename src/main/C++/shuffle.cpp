@@ -37,7 +37,6 @@ void print(vector<int> vec){
 int main()
 {
     vector<vector<int>> vec = {{1,3,5,2,4,6},{1,2,3},{1,2},{},{1,2,3,4,5}};
-    
     cout<< vec[3].size()<<endl;
 
     for(auto& e:vec){
