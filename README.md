@@ -24,8 +24,8 @@ Programming Challenges and Solutions for Fun
 |[Add Minimum Number of Rungs](#addRungs)|[Maximum Number of Words You Can Type](#canBeTypedWords)|[Sum of Digits of String After Convert](#getLucky)|[Remove Duplicates from Sorted Array](#removeDuplicates)|
 |[Check If N and Its Double Exist](#checkIfExist)|[Linked List Cycle](#hasCycle)|[Linked List Cycle II](#detectCycle)|[Maximum Number of Weeks for Which You Can Work](#numberOfWeeks)|
 |[Check If String Is a Prefix of Array](#isPrefixString)|[Remove Stones to Minimize the Total](#minStoneSum)|[Minimum Number of Swaps to Make the String Balanced](#minSwaps)|[Find the Duplicate Number](#findDuplicate)|
-|[Number of Strings That Appear as Substrings in Word](#numOfStrings)|[Array With Elements Not Equal to Average of Neighbors](#rearrangeArray)|[Minimum Non-Zero Product of the Array Elements](#minNonZeroProduct)|[-](#)|
-|[-](#)|[-](#)|[-](#)|[-](#)|
+|[Number of Strings That Appear as Substrings in Word](#numOfStrings)|[Array With Elements Not Equal to Average of Neighbors](#rearrangeArray)|[Minimum Non-Zero Product of the Array Elements](#minNonZeroProduct)|[Check Permutation](#checkPermutation)|
+|[Minimize the Difference Between Target and Chosen Elements](#minimizeTheDifference)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 ---
@@ -1125,4 +1125,26 @@ Find the minimum non-zero product of nums after performing the above operation a
 Note: The answer should be the minimum product before the modulo operation is done.
 #### Solutions :
   * [minNonZeroProduct.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/minNonZeroProduct.py)
+---
+
+###  Check Permutation <a name="checkPermutation"></a>
+#### Challenge :
+Given two strings, write a method to decide if one is a permutation of the
+other.
+#### Solutions :
+  * [CheckPermutation.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/CheckPermutation.py)
+  * [CheckPermutation.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++\checkPermutation.cpp)
+---
+
+###  Minimize the Difference Between Target and Chosen Elements <a name="minimizeTheDifference"></a>
+#### Challenge :
+You are given an m x n integer matrix mat and an integer target.
+
+Choose one integer from each row in the matrix such that the absolute difference between target and the sum of the chosen elements is minimized.
+
+Return the minimum absolute difference.
+
+The absolute difference between two numbers a and b is the absolute value of a - b.
+#### Solutions :
+  * [minimizeTheDifference.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/minimizeTheDifference.py)
 ---
