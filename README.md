@@ -25,7 +25,7 @@ Programming Challenges and Solutions for Fun
 |[Check If N and Its Double Exist](#checkIfExist)|[Linked List Cycle](#hasCycle)|[Linked List Cycle II](#detectCycle)|[Maximum Number of Weeks for Which You Can Work](#numberOfWeeks)|
 |[Check If String Is a Prefix of Array](#isPrefixString)|[Remove Stones to Minimize the Total](#minStoneSum)|[Minimum Number of Swaps to Make the String Balanced](#minSwaps)|[Find the Duplicate Number](#findDuplicate)|
 |[Number of Strings That Appear as Substrings in Word](#numOfStrings)|[Array With Elements Not Equal to Average of Neighbors](#rearrangeArray)|[Minimum Non-Zero Product of the Array Elements](#minNonZeroProduct)|[Check Permutation](#checkPermutation)|
-|[Minimize the Difference Between Target and Chosen Elements](#minimizeTheDifference)|[-](#)|[-](#)|[-](#)|
+|[Minimize the Difference Between Target and Chosen Elements](#minimizeTheDifference)|[Find Greatest Common Divisor of Array](#findGCD)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 ---
@@ -1147,4 +1147,13 @@ Return the minimum absolute difference.
 The absolute difference between two numbers a and b is the absolute value of a - b.
 #### Solutions :
   * [minimizeTheDifference.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/minimizeTheDifference.py)
+---
+
+###  Find Greatest Common Divisor of Array <a name="findGCD"></a>
+#### Challenge :
+Given an integer array nums, return the greatest common divisor of the smallest number and largest number in nums.
+
+The greatest common divisor of two numbers is the largest positive integer that evenly divides both numbers.
+#### Solutions :
+  * [findGCD.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/findGCD.py)
 ---
