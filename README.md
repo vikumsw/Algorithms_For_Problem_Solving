@@ -28,9 +28,13 @@ Programming Challenges and Solutions for Fun
 |[Minimize the Difference Between Target and Chosen Elements](#minimizeTheDifference)|[Find Greatest Common Divisor of Array](#findGCD)|[Reverse First k Elements of Queue](#reverseKelements)|[Check Permutation](#checkPermutation)|
 |[Find the last true](#lastTrue)|[Rotate Matrix](#RotateMatrix)|[Zigzag Traversal](#ZigzagTraversal)|[String Compression](#StringCompression)|
 |[Reverse the order of words](#Reversewords)|[URLify](#URLify)|[Zero Matrix](#ZeroMatrix)|[Return Kth to Last](#ReturnKth)|
-|[Sum Lists](#SumLists)|[-](#)|[-](#)|[-](#)|
+|[Sum Lists](#SumLists)|[Find the Kth Largest Integer in the Array](#kthLargestNumber)|[Minimum Difference Between Highest and Lowest of K Scores](#minimumDifference)|[Minimal Tree](#MinimalTree)|
+|[Route Between Nodes](#RouteBetweenNodes)|[Palindrome](#Palindrome)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
+|[-](#)|[-](#)|[-](#)|[-](#)|
+|[-](#)|[-](#)|[-](#)|[-](#)|
+### linked lists Intersection <a name="linkedlistsIntersection"></a>
 ---
 ### N<sup>th</sup> Sevenish Number<a name="Nthsevenishnumber"></a>
 #### Challenge : 
@@ -1277,4 +1281,60 @@ digit. The digits are stored in reverse order, such that the 1 's digit is at th
 function that adds the two numbers and returns the sum as a linked list.
 #### Solutions :
   * [sumLists.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/sumLists.cpp)
+---
+
+### Minimum Difference Between Highest and Lowest of K Scores <a name="minimumDifference"></a>
+#### Challenge :
+You are given a 0-indexed integer array nums, where nums[i] represents the score of the ith student. You are also given an integer k.
+
+Pick the scores of any k students from the array so that the difference between the highest and the lowest of the k scores is minimized.
+
+Return the minimum possible difference.
+#### Solutions :
+  * [minimumDifference.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/minimumDifference.py)
+---
+
+### Find the Kth Largest Integer in the Array <a name="kthLargestNumber"></a>
+#### Challenge :
+You are given an array of strings nums and an integer k. Each string in nums represents an integer without leading zeros.
+
+Return the string that represents the kth largest integer in nums.
+
+Note: Duplicate numbers should be counted distinctly. For example, if nums is ["1","2","2"], "2" is the first largest integer, "2" is the second-largest integer, and "1" is the third-largest integer.
+#### Solutions :
+  * [kthLargestNumber.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/kthLargestNumber.py)
+---
+
+### Minimal Tree <a name="MinimalTree"></a>
+#### Challenge :
+Given a sorted (increasing order) array with unique integer elements, write an algorithm
+to create a binary search tree with minimal height.
+#### Solutions :
+  * [minimalBTree.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/minimalBTree.py)
+---
+
+### Route Between Nodes <a name="RouteBetweenNodes"></a>
+#### Challenge :
+Given a directed graph, design an algorithm to find out whether there is a
+route between two nodes.
+#### Solutions :
+  * [RouteBetweenNodes.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/RouteBetweenNodes.py)
+---
+
+### Palindrome <a name="Palindrome"></a>
+#### Challenge :
+Implement a function to check if a linked list is a palindrome.
+
+#### Solutions :
+  * [listPalindrome.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/listPalindrome.py)
+---
+
+### linked lists Intersection <a name="linkedlistsIntersection"></a>
+#### Challenge :
+Given two (singly) linked lists, determine if the two lists intersect. Return the
+intersecting node. Note that the intersection is defined based on reference, not value. That is, if the
+kth node of the first linked list is the exact same node (by reference) as the jth node of the second
+linked list, then they are intersecting.
+#### Solutions :
+  * [listIntersection.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/listIntersection.py)
 ---
