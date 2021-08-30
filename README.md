@@ -29,7 +29,7 @@ Programming Challenges and Solutions for Fun
 |[Find the last true](#lastTrue)|[Rotate Matrix](#RotateMatrix)|[Zigzag Traversal](#ZigzagTraversal)|[String Compression](#StringCompression)|
 |[Reverse the order of words](#Reversewords)|[URLify](#URLify)|[Zero Matrix](#ZeroMatrix)|[Return Kth to Last](#ReturnKth)|
 |[Sum Lists](#SumLists)|[Find the Kth Largest Integer in the Array](#kthLargestNumber)|[Minimum Difference Between Highest and Lowest of K Scores](#minimumDifference)|[Minimal Tree](#MinimalTree)|
-|[Route Between Nodes](#RouteBetweenNodes)|[Palindrome](#Palindrome)|[-](#)|[-](#)|
+|[Route Between Nodes](#RouteBetweenNodes)|[Palindrome](#Palindrome)|[Count Special Quadruplets](#countQuadruplets)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
@@ -1337,4 +1337,14 @@ kth node of the first linked list is the exact same node (by reference) as the j
 linked list, then they are intersecting.
 #### Solutions :
   * [listIntersection.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/listIntersection.py)
+---
+
+### Count Special Quadruplets <a name="countQuadruplets"></a>
+#### Challenge :
+Given a 0-indexed integer array nums, return the number of distinct quadruplets (a, b, c, d) such that:
+
+nums[a] + nums[b] + nums[c] == nums[d], and
+a < b < c < d
+#### Solutions :
+  * [countQuadruplets.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/countQuadruplets.py)
 ---
