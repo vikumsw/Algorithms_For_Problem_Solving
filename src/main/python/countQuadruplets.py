@@ -7,5 +7,4 @@ class Solution:
                 for k in range(j+1,ll-1):
                     res = nums[i]+ nums[j]+ nums[k]
                     count +=  nums[k+1:].count(res)
-                        
         return count
