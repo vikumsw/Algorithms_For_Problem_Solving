@@ -29,7 +29,7 @@ Programming Challenges and Solutions for Fun
 |[Find the last true](#lastTrue)|[Rotate Matrix](#RotateMatrix)|[Zigzag Traversal](#ZigzagTraversal)|[String Compression](#StringCompression)|
 |[Reverse the order of words](#Reversewords)|[URLify](#URLify)|[Zero Matrix](#ZeroMatrix)|[Return Kth to Last](#ReturnKth)|
 |[Sum Lists](#SumLists)|[Find the Kth Largest Integer in the Array](#kthLargestNumber)|[Minimum Difference Between Highest and Lowest of K Scores](#minimumDifference)|[Minimal Tree](#MinimalTree)|
-|[Route Between Nodes](#RouteBetweenNodes)|[Palindrome](#Palindrome)|[Count Special Quadruplets](#countQuadruplets)|[-](#)|
+|[Route Between Nodes](#RouteBetweenNodes)|[Palindrome](#Palindrome)|[Count Special Quadruplets](#countQuadruplets)|[The Number of Weak Characters in the Game](#numberOfWeakCharacters)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
@@ -1347,4 +1347,16 @@ nums[a] + nums[b] + nums[c] == nums[d], and
 a < b < c < d
 #### Solutions :
   * [countQuadruplets.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/countQuadruplets.py)
+---
+
+### The Number of Weak Characters in the Game <a name="numberOfWeakCharacters"></a>
+#### Challenge :
+You are playing a game that contains multiple characters, and each of the characters has two main properties: attack and defense. You are given a 2D integer array properties where properties[i] = [attacki, defensei] represents the properties of the ith character in the game.
+
+A character is said to be weak if any other character has both attack and defense levels strictly greater than this character's attack and defense levels. More formally, a character i is said to be weak if there exists another character j where attackj > attacki and defensej > defensei.
+
+Return the number of weak characters.
+#### Solutions :
+  * [numberOfWeakCharacters.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/numberOfWeakCharacters.py)
+  * [numberOfWeakCharacters.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/numberOfWeakCharacters.cpp)
 ---
