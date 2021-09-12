@@ -6,6 +6,7 @@ class Solution:
             ratio = rect[0]/rect[1]
             ratio_map[ratio] +=1 
             
+            
         
         print(ratio_map)
         for ratio_val in ratio_map.values():
