@@ -30,7 +30,7 @@ Programming Challenges and Solutions for Fun
 |[Reverse the order of words](#Reversewords)|[URLify](#URLify)|[Zero Matrix](#ZeroMatrix)|[Return Kth to Last](#ReturnKth)|
 |[Sum Lists](#SumLists)|[Find the Kth Largest Integer in the Array](#kthLargestNumber)|[Minimum Difference Between Highest and Lowest of K Scores](#minimumDifference)|[Minimal Tree](#MinimalTree)|
 |[Route Between Nodes](#RouteBetweenNodes)|[Palindrome](#Palindrome)|[Count Special Quadruplets](#countQuadruplets)|[The Number of Weak Characters in the Game](#numberOfWeakCharacters)|
-|[Shuffle an Array of Integers](#shuffleArray)|[-](#)|[-](#)|[-](#)|
+|[Shuffle an Array of Integers](#shuffleArray)|[Maximum Product of the Length of Two Palindromic Subsequences](#maxProduct)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
@@ -1360,9 +1360,21 @@ Return the number of weak characters.
   * [numberOfWeakCharacters.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/numberOfWeakCharacters.py)
   * [numberOfWeakCharacters.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/numberOfWeakCharacters.cpp)
 ---
+
 ### Shuffle an Array of Integers <a name="ShuffleArray"></a>
 #### Challenge :
 Given an integer array of size n, create a program to recursively shuffle the array so no two elements remain next to each other. Do not use extra space in your solution.
 #### Solutions :
   * [shuffle.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/shuffle.cpp)
+---
+
+### Maximum Product of the Length of Two Palindromic Subsequences <a name="ShuffleArray"></a>
+#### Challenge :
+Given a string s, find two disjoint palindromic subsequences of s such that the product of their lengths is maximized. The two subsequences are disjoint if they do not both pick a character at the same index.
+
+Return the maximum possible product of the lengths of the two palindromic subsequences.
+
+A subsequence is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters. A string is palindromic if it reads the same forward and backward.
+#### Solutions :
+  * [maxProduct.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/maxProduct.py)
 ---
