@@ -30,7 +30,7 @@ Programming Challenges and Solutions for Fun
 |[Reverse the order of words](#Reversewords)|[URLify](#URLify)|[Zero Matrix](#ZeroMatrix)|[Return Kth to Last](#ReturnKth)|
 |[Sum Lists](#SumLists)|[Find the Kth Largest Integer in the Array](#kthLargestNumber)|[Minimum Difference Between Highest and Lowest of K Scores](#minimumDifference)|[Minimal Tree](#MinimalTree)|
 |[Route Between Nodes](#RouteBetweenNodes)|[Palindrome](#Palindrome)|[Count Special Quadruplets](#countQuadruplets)|[The Number of Weak Characters in the Game](#numberOfWeakCharacters)|
-|[Shuffle an Array of Integers](#shuffleArray)|[Maximum Product of the Length of Two Palindromic Subsequences](#maxProduct)|[-](#)|[-](#)|
+|[Shuffle an Array of Integers](#shuffleArray)|[Maximum Product of the Length of Two Palindromic Subsequences](#maxProduct)|[Final Value of Variable After Performing Operations](#finalValueAfterOperations)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
@@ -1377,4 +1377,24 @@ Return the maximum possible product of the lengths of the two palindromic subseq
 A subsequence is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters. A string is palindromic if it reads the same forward and backward.
 #### Solutions :
   * [maxProduct.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/maxProduct.py)
+---
+
+### Final Value of Variable After Performing Operations <a name="finalValueAfterOperations"></a>
+#### Challenge :
+There is a programming language with only four operations and one variable X:
+
+++X and X++ increments the value of the variable X by 1.
+--X and X-- decrements the value of the variable X by 1.
+Initially, the value of X is 0.
+
+Given an array of strings operations containing a list of operations, return the final value of X after performing all the operations.
+
+Constraints:
+
+1 <= operations.length <= 100
+operations[i] will be either "++X", "X++", "--X", or "X--".
+
+#### Solutions :
+  * [finalValueAfterOperations.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/finalValueAfterOperations.py)
+  * [finalValueAfterOperations.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/finalValueAfterOperations.cpp)
 ---
