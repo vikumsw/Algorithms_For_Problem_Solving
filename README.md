@@ -30,7 +30,7 @@ Programming Challenges and Solutions for Fun
 |[Reverse the order of words](#Reversewords)|[URLify](#URLify)|[Zero Matrix](#ZeroMatrix)|[Return Kth to Last](#ReturnKth)|
 |[Sum Lists](#SumLists)|[Find the Kth Largest Integer in the Array](#kthLargestNumber)|[Minimum Difference Between Highest and Lowest of K Scores](#minimumDifference)|[Minimal Tree](#MinimalTree)|
 |[Route Between Nodes](#RouteBetweenNodes)|[Palindrome](#Palindrome)|[Count Special Quadruplets](#countQuadruplets)|[The Number of Weak Characters in the Game](#numberOfWeakCharacters)|
-|[Shuffle an Array of Integers](#shuffleArray)|[Maximum Product of the Length of Two Palindromic Subsequences](#maxProduct)|[Final Value of Variable After Performing Operations](#finalValueAfterOperations)|[-](#)|
+|[Shuffle an Array of Integers](#shuffleArray)|[Maximum Product of the Length of Two Palindromic Subsequences](#maxProduct)|[Final Value of Variable After Performing Operations](#finalValueAfterOperations)|[Sum of Beauty in the Array](#sumOfBeauties)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
@@ -1397,4 +1397,23 @@ operations[i] will be either "++X", "X++", "--X", or "X--".
 #### Solutions :
   * [finalValueAfterOperations.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/finalValueAfterOperations.py)
   * [finalValueAfterOperations.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/finalValueAfterOperations.cpp)
+---
+
+### Sum of Beauty in the Array <a name="sumOfBeauties"></a>
+#### Challenge :
+You are given a 0-indexed integer array nums. For each index i (1 <= i <= nums.length - 2) the beauty of nums[i] equals:
+
+2, if nums[j] < nums[i] < nums[k], for all 0 <= j < i and for all i < k <= nums.length - 1.
+1, if nums[i - 1] < nums[i] < nums[i + 1], and the previous condition is not satisfied.
+0, if none of the previous conditions holds.
+Return the sum of beauty of all nums[i] where 1 <= i <= nums.length - 2.
+
+Constraints:
+
+3 <= nums.length <= 105
+1 <= nums[i] <= 105
+
+#### Solutions :
+  * [sumOfBeauties.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/sumOfBeauties.py)
+  * [sumOfBeauties.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/sumOfBeauties.cpp)
 ---
