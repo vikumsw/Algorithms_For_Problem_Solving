@@ -31,7 +31,7 @@ Programming Challenges and Solutions for Fun
 |[Sum Lists](#SumLists)|[Find the Kth Largest Integer in the Array](#kthLargestNumber)|[Minimum Difference Between Highest and Lowest of K Scores](#minimumDifference)|[Minimal Tree](#MinimalTree)|
 |[Route Between Nodes](#RouteBetweenNodes)|[Palindrome](#Palindrome)|[Count Special Quadruplets](#countQuadruplets)|[The Number of Weak Characters in the Game](#numberOfWeakCharacters)|
 |[Shuffle an Array of Integers](#shuffleArray)|[Maximum Product of the Length of Two Palindromic Subsequences](#maxProduct)|[Final Value of Variable After Performing Operations](#finalValueAfterOperations)|[Sum of Beauty in the Array](#sumOfBeauties)|
-|[Detect Squares](#DetectSquares)|[Maximum Difference Between Increasing Elements](#maximumDifference)|[-](#)|[-](#)|
+|[Detect Squares](#DetectSquares)|[Maximum Difference Between Increasing Elements](#maximumDifference)|[Grid Game](#gridGame)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 ### linked lists Intersection <a name="linkedlistsIntersection"></a>
@@ -1449,4 +1449,17 @@ Given a 0-indexed integer array nums of size n, find the maximum difference betw
 Return the maximum difference. If no such i and j exists, return -1.
 #### Solutions :
   * [maximumDifference.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/maximumDifference.py)
+---
+
+### Grid Game <a name="gridGame"></a>
+#### Challenge :
+You are given a 0-indexed 2D array grid of size 2 x n, where grid[r][c] represents the number of points at position (r, c) on the matrix. Two robots are playing a game on this matrix.
+
+Both robots initially start at (0, 0) and want to reach (1, n-1). Each robot may only move to the right ((r, c) to (r, c + 1)) or down ((r, c) to (r + 1, c)).
+
+At the start of the game, the first robot moves from (0, 0) to (1, n-1), collecting all the points from the cells on its path. For all cells (r, c) traversed on the path, grid[r][c] is set to 0. Then, the second robot moves from (0, 0) to (1, n-1), collecting the points on its path. Note that their paths may intersect with one another.
+
+The first robot wants to minimize the number of points collected by the second robot. In contrast, the second robot wants to maximize the number of points it collects. If both robots play optimally, return the number of points collected by the second robot.
+#### Solutions :
+  * [gridGame.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/gridGame.py)
 ---
