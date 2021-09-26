@@ -31,7 +31,7 @@ Programming Challenges and Solutions for Fun
 |[Sum Lists](#SumLists)|[Find the Kth Largest Integer in the Array](#kthLargestNumber)|[Minimum Difference Between Highest and Lowest of K Scores](#minimumDifference)|[Minimal Tree](#MinimalTree)|
 |[Route Between Nodes](#RouteBetweenNodes)|[Palindrome](#Palindrome)|[Count Special Quadruplets](#countQuadruplets)|[The Number of Weak Characters in the Game](#numberOfWeakCharacters)|
 |[Shuffle an Array of Integers](#shuffleArray)|[Maximum Product of the Length of Two Palindromic Subsequences](#maxProduct)|[Final Value of Variable After Performing Operations](#finalValueAfterOperations)|[Sum of Beauty in the Array](#sumOfBeauties)|
-|[Detect Squares](#DetectSquares)|[-](#)|[-](#)|[-](#)|
+|[Detect Squares](#DetectSquares)|[Maximum Difference Between Increasing Elements](#maximumDifference)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 ### linked lists Intersection <a name="linkedlistsIntersection"></a>
@@ -1440,4 +1440,13 @@ At most 5000 calls in total will be made to add and count.
 
 #### Solutions :
   * [DetectSquares.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/DetectSquares.py)
+---
+
+### Maximum Difference Between Increasing Elements <a name="maximumDifference"></a>
+#### Challenge :
+Given a 0-indexed integer array nums of size n, find the maximum difference between nums[i] and nums[j] (i.e., nums[j] - nums[i]), such that 0 <= i < j < n and nums[i] < nums[j].
+
+Return the maximum difference. If no such i and j exists, return -1.
+#### Solutions :
+  * [maximumDifference.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/maximumDifference.py)
 ---
