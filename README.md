@@ -35,7 +35,7 @@ Programming Challenges and Solutions for Fun
 |[Count Number of Maximum Bitwise-OR Subsets](#countMaxOrSubsets)|[Simple Bank System](#SimpleBankSystem)|[Number of Valid Words in a Sentence](#countValidWords)|[Next Greater Numerically Balanced Number](#nextBeautifulNumber)|
 |[Check if an Original String Exists Given Two Encoded Strings](#)|[-](#)|[-](#)|[-](#)|
 |[-](#possiblyEquals)|[Minimum Operations to Convert Number](#minimumOperations)|[Find the Minimum and Maximum Number of Nodes Between Critical Points](#nodesBetweenCriticalPoints)|[Smallest Index With Equal Value](#smallestEqual)|
-|[Find Smallest Letter Greater Than Target](#isPerfectSquare)|[Find Smallest Letter Greater Than Target](#nextGreatestLetter)|[-](#)|[-](#)|
+|[Find Smallest Letter Greater Than Target](#isPerfectSquare)|[Find Smallest Letter Greater Than Target](#nextGreatestLetter)|[Path Sum](#hasPathSum)|[Deepest Leaves Sum](#deepestLeavesSum)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 ### linked lists Intersection <a name="linkedlistsIntersection"></a>
 ---
@@ -1634,4 +1634,21 @@ Given a positive integer num, write a function which returns True if num is a pe
 Follow up: Do not use any built-in library function such as sqrt.
 #### Solutions :
   * [isPerfectSquare.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/isPerfectSquare.py)
+---
+
+### Deepest Leaves Sum <a name="deepestLeavesSum"></a>
+#### Challenge :
+Given the root of a binary tree, return the sum of values of its deepest leaves.
+
+#### Solutions :
+  * [deepestLeavesSum.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/deepestLeavesSum.py)
+---
+
+### Path Sum <a name="hasPathSum"></a>
+#### Challenge :
+Given the root of a binary tree and an integer targetSum, return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum.
+
+A leaf is a node with no children.
+#### Solutions :
+  * [hasPathSum.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/hasPathSum.py)
 ---
