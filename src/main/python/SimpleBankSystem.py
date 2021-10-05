@@ -40,6 +40,7 @@ class Bank:
         return True
 
 
+
 # Your Bank object will be instantiated and called as such:
 # obj = Bank(balance)
 # param_1 = obj.transfer(account1,account2,money)
