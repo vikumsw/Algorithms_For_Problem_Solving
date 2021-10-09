@@ -31,7 +31,7 @@ Programming Challenges and Solutions for Fun
 |[Sum Lists](#SumLists)|[Find the Kth Largest Integer in the Array](#kthLargestNumber)|[Minimum Difference Between Highest and Lowest of K Scores](#minimumDifference)|[Minimal Tree](#MinimalTree)|
 |[Route Between Nodes](#RouteBetweenNodes)|[Palindrome](#Palindrome)|[Count Special Quadruplets](#countQuadruplets)|[The Number of Weak Characters in the Game](#numberOfWeakCharacters)|
 |[Shuffle an Array of Integers](#shuffleArray)|[Maximum Product of the Length of Two Palindromic Subsequences](#maxProduct)|[Final Value of Variable After Performing Operations](#finalValueAfterOperations)|[Sum of Beauty in the Array](#sumOfBeauties)|
-|[Detect Squares](#DetectSquares)|[Maximum Difference Between Increasing Elements](#maximumDifference)|[Grid Game](#gridGame)|[-](#)|
+|[Detect Squares](#DetectSquares)|[Maximum Difference Between Increasing Elements](#maximumDifference)|[Grid Game](#gridGame)|[Check if Numbers Are Ascending in a Sentence](#areNumbersAscending)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 ### linked lists Intersection <a name="linkedlistsIntersection"></a>
@@ -1462,4 +1462,11 @@ At the start of the game, the first robot moves from (0, 0) to (1, n-1), collect
 The first robot wants to minimize the number of points collected by the second robot. In contrast, the second robot wants to maximize the number of points it collects. If both robots play optimally, return the number of points collected by the second robot.
 #### Solutions :
   * [gridGame.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/gridGame.py)
+---
+
+### Check if Numbers Are Ascending in a Sentence <a name="areNumbersAscending"></a>
+#### Challenge :
+You are given a 0-indexed 2D array grid of size 2 x n, where grid[r][c] represents the number of 
+#### Solutions :
+  * [areNumbersAscending.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/areNumbersAscending.py)
 ---
