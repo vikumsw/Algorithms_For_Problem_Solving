@@ -1482,6 +1482,7 @@ The tokens in s are separated by a single space.
 There are at least two numbers in s.
 Each number in s is a positive number less than 100, with no leading zeros.
 s contains no leading or trailing spaces.
+
 #### Solutions :
   * [areNumbersAscending.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/areNumbersAscending.py)
 ---
