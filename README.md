@@ -32,7 +32,7 @@ Programming Challenges and Solutions for Fun
 |[Route Between Nodes](#RouteBetweenNodes)|[Palindrome](#Palindrome)|[Count Special Quadruplets](#countQuadruplets)|[The Number of Weak Characters in the Game](#numberOfWeakCharacters)|
 |[Shuffle an Array of Integers](#shuffleArray)|[Maximum Product of the Length of Two Palindromic Subsequences](#maxProduct)|[Final Value of Variable After Performing Operations](#finalValueAfterOperations)|[Sum of Beauty in the Array](#sumOfBeauties)|
 |[Detect Squares](#DetectSquares)|[Maximum Difference Between Increasing Elements](#maximumDifference)|[Grid Game](#gridGame)|[Check if Numbers Are Ascending in a Sentence](#areNumbersAscending)|
-|[-](#)|[-](#)|[-](#)|[-](#)|
+|[Count Number of Maximum Bitwise-OR Subsets](#countMaxOrSubsets)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 ### linked lists Intersection <a name="linkedlistsIntersection"></a>
 ---
@@ -1466,7 +1466,33 @@ The first robot wants to minimize the number of points collected by the second r
 
 ### Check if Numbers Are Ascending in a Sentence <a name="areNumbersAscending"></a>
 #### Challenge :
-You are given a 0-indexed 2D array grid of size 2 x n, where grid[r][c] represents the number of 
+A sentence is a list of tokens separated by a single space with no leading or trailing spaces. Every token is either a positive number consisting of digits 0-9 with no leading zeros, or a word consisting of lowercase English letters.
+
+For example, "a puppy has 2 eyes 4 legs" is a sentence with seven tokens: "2" and "4" are numbers and the other tokens such as "puppy" are words.
+Given a string s representing a sentence, you need to check if all the numbers in s are strictly increasing from left to right (i.e., other than the last number, each number is strictly smaller than the number on its right in s).
+
+Return true if so, or false otherwise.
+
+Constraints:
+
+3 <= s.length <= 200
+s consists of lowercase English letters, spaces, and digits from 0 to 9, inclusive.
+The number of tokens in s is between 2 and 100, inclusive.
+The tokens in s are separated by a single space.
+There are at least two numbers in s.
+Each number in s is a positive number less than 100, with no leading zeros.
+s contains no leading or trailing spaces.
 #### Solutions :
   * [areNumbersAscending.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/areNumbersAscending.py)
+---
+
+### Count Number of Maximum Bitwise-OR Subsets <a name="countMaxOrSubsets"></a>
+#### Challenge :
+Given an integer array nums, find the maximum possible bitwise OR of a subset of nums and return the number of different non-empty subsets with the maximum bitwise OR.
+
+An array a is a subset of an array b if a can be obtained from b by deleting some (possibly zero) elements of b. Two subsets are considered different if the indices of the elements chosen are different.
+
+The bitwise OR of an array a is equal to a[0] OR a[1] OR ... OR a[a.length - 1] (0-indexed).
+#### Solutions :
+  * [countMaxOrSubsets.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/countMaxOrSubsets.py)
 ---
