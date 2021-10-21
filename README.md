@@ -32,7 +32,7 @@ Programming Challenges and Solutions for Fun
 |[Route Between Nodes](#RouteBetweenNodes)|[Palindrome](#Palindrome)|[Count Special Quadruplets](#countQuadruplets)|[The Number of Weak Characters in the Game](#numberOfWeakCharacters)|
 |[Shuffle an Array of Integers](#shuffleArray)|[Maximum Product of the Length of Two Palindromic Subsequences](#maxProduct)|[Final Value of Variable After Performing Operations](#finalValueAfterOperations)|[Sum of Beauty in the Array](#sumOfBeauties)|
 |[Detect Squares](#DetectSquares)|[Maximum Difference Between Increasing Elements](#maximumDifference)|[Grid Game](#gridGame)|[Check if Numbers Are Ascending in a Sentence](#areNumbersAscending)|
-|[Count Number of Maximum Bitwise-OR Subsets](#countMaxOrSubsets)|[Simple Bank System](#SimpleBankSystem)|[-](#)|[-](#)|
+|[Count Number of Maximum Bitwise-OR Subsets](#countMaxOrSubsets)|[Simple Bank System](#SimpleBankSystem)|[Number of Valid Words in a Sentence](#countValidWords)|[Next Greater Numerically Balanced Number](#nextBeautifulNumber)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 ### linked lists Intersection <a name="linkedlistsIntersection"></a>
 ---
