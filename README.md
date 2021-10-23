@@ -1515,3 +1515,19 @@ boolean withdraw(int account, long money) Withdraw money dollars from the accoun
 #### Solutions :
   * [SimpleBankSystem.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/SimpleBankSystem.py)
 ---
+
+### Number of Valid Words in a Sentence <a name="countValidWords"></a>
+#### Challenge :
+A sentence consists of lowercase letters ('a' to 'z'), digits ('0' to '9'), hyphens ('-'), punctuation marks ('!', '.', and ','), and spaces (' ') only. Each sentence can be broken down into one or more tokens separated by one or more spaces ' '.
+
+A token is a valid word if:
+
+It only contains lowercase letters, hyphens, and/or punctuation (no digits).
+There is at most one hyphen '-'. If present, it should be surrounded by lowercase characters ("a-b" is valid, but "-ab" and "ab-" are not valid).
+There is at most one punctuation mark. If present, it should be at the end of the token.
+Examples of valid words include "a-b.", "afad", "ba-c", "a!", and "!".
+
+Given a string sentence, return the number of valid words in sentence.
+#### Solutions :
+  * [countValidWords.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/countValidWords.py)
+---
