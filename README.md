@@ -1531,3 +1531,12 @@ Given a string sentence, return the number of valid words in sentence.
 #### Solutions :
   * [countValidWords.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/countValidWords.py)
 ---
+
+### Next Greater Numerically Balanced Number <a name="nextBeautifulNumber"></a>
+#### Challenge :
+An integer x is numerically balanced if for every digit d in the number x, there are exactly d occurrences of that digit in x.
+
+Given an integer n, return the smallest numerically balanced number strictly greater than n.
+#### Solutions :
+  * [nextBeautifulNumber.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/nextBeautifulNumber.py)
+---
