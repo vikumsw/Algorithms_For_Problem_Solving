@@ -1540,3 +1540,14 @@ Given an integer n, return the smallest numerically balanced number strictly gre
 #### Solutions :
   * [nextBeautifulNumber.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/nextBeautifulNumber.py)
 ---
+
+### Count Nodes With the Highest Score <a name="countHighestScoreNodes"></a>
+#### Challenge :
+There is a binary tree rooted at 0 consisting of n nodes. The nodes are labeled from 0 to n - 1. You are given a 0-indexed integer array parents representing the tree, where parents[i] is the parent of node i. Since node 0 is the root, parents[0] == -1.
+
+Each node has a score. To find the score of a node, consider if the node and the edges connected to it were removed. The tree would become one or more non-empty subtrees. The size of a subtree is the number of the nodes in it. The score of the node is the product of the sizes of all those subtrees.
+
+Return the number of nodes that have the highest score.
+#### Solutions :
+  * [countHighestScoreNodes.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/countHighestScoreNodes.py)
+---
