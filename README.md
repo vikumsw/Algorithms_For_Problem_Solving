@@ -33,6 +33,8 @@ Programming Challenges and Solutions for Fun
 |[Shuffle an Array of Integers](#shuffleArray)|[Maximum Product of the Length of Two Palindromic Subsequences](#maxProduct)|[Final Value of Variable After Performing Operations](#finalValueAfterOperations)|[Sum of Beauty in the Array](#sumOfBeauties)|
 |[Detect Squares](#DetectSquares)|[Maximum Difference Between Increasing Elements](#maximumDifference)|[Grid Game](#gridGame)|[Check if Numbers Are Ascending in a Sentence](#areNumbersAscending)|
 |[Count Number of Maximum Bitwise-OR Subsets](#countMaxOrSubsets)|[Simple Bank System](#SimpleBankSystem)|[Number of Valid Words in a Sentence](#countValidWords)|[Next Greater Numerically Balanced Number](#nextBeautifulNumber)|
+|[Check if an Original String Exists Given Two Encoded Strings](#)|[-](#)|[-](#)|[-](#)|
+|[-](#possiblyEquals)|[Minimum Operations to Convert Number](#minimumOperations)|[Find the Minimum and Maximum Number of Nodes Between Critical Points](#nodesBetweenCriticalPoints)|[Smallest Index With Equal Value](#smallestEqual)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 ### linked lists Intersection <a name="linkedlistsIntersection"></a>
 ---
@@ -1550,4 +1552,63 @@ Each node has a score. To find the score of a node, consider if the node and the
 Return the number of nodes that have the highest score.
 #### Solutions :
   * [countHighestScoreNodes.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/countHighestScoreNodes.py)
+---
+
+### Smallest Index With Equal Value <a name="smallestEqual"></a>
+#### Challenge :
+Given a 0-indexed integer array nums, return the smallest index i of nums such that i mod 10 == nums[i], or -1 if such index does not exist.
+
+x mod y denotes the remainder when x is divided by y.
+#### Solutions :
+  * [smallestEqual.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/smallestEqual.py)
+---
+
+### Find the Minimum and Maximum Number of Nodes Between Critical Points <a name="nodesBetweenCriticalPoints"></a>
+#### Challenge :
+A critical point in a linked list is defined as either a local maxima or a local minima.
+
+A node is a local maxima if the current node has a value strictly greater than the previous node and the next node.
+
+A node is a local minima if the current node has a value strictly smaller than the previous node and the next node.
+
+Note that a node can only be a local maxima/minima if there exists both a previous node and a next node.
+
+Given a linked list head, return an array of length 2 containing [minDistance, maxDistance] where minDistance is the minimum distance between any two distinct critical points and maxDistance is the maximum distance between any two distinct critical points. If there are fewer than two critical points, return [-1, -1].
+#### Solutions :
+  * [nodesBetweenCriticalPoints.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/nodesBetweenCriticalPoints.py)
+---
+
+### Minimum Operations to Convert Number <a name="minimumOperations"></a>
+#### Challenge :
+You are given a 0-indexed integer array nums containing distinct numbers, an integer start, and an integer goal. There is an integer x that is initially set to start, and you want to perform operations on x such that it is converted to goal. You can perform the following operation repeatedly on the number x:
+
+If 0 <= x <= 1000, then for any index i in the array (0 <= i < nums.length), you can set x to any of the following:
+
+x + nums[i]
+x - nums[i]
+x ^ nums[i] (bitwise-XOR)
+Note that you can use each nums[i] any number of times in any order. Operations that set x to be out of the range 0 <= x <= 1000 are valid, but no more operations can be done afterward.
+
+Return the minimum number of operations needed to convert x = start into goal, and -1 if it is not possible.
+#### Solutions :
+  * [minimumOperations.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/minimumOperations.py)
+---
+
+### Check if an Original String Exists Given Two Encoded Strings <a name="possiblyEquals"></a>
+#### Challenge :
+An original string, consisting of lowercase English letters, can be encoded by the following steps:
+
+Arbitrarily split it into a sequence of some number of non-empty substrings.
+Arbitrarily choose some elements (possibly none) of the sequence, and replace each with its length (as a numeric string).
+Concatenate the sequence as the encoded string.
+For example, one way to encode an original string "abcdefghijklmnop" might be:
+
+Split it as a sequence: ["ab", "cdefghijklmn", "o", "p"].
+Choose the second and third elements to be replaced by their lengths, respectively. The sequence becomes ["ab", "12", "1", "p"].
+Concatenate the elements of the sequence to get the encoded string: "ab121p".
+Given two encoded strings s1 and s2, consisting of lowercase English letters and digits 1-9 (inclusive), return true if there exists an original string that could be encoded as both s1 and s2. Otherwise, return false.
+
+Note: The test cases are generated such that the number of consecutive digits in s1 and s2 does not exceed 3.
+#### Solutions :
+  * [possiblyEquals.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/possiblyEquals.py)
 ---
