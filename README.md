@@ -1612,3 +1612,16 @@ Note: The test cases are generated such that the number of consecutive digits in
 #### Solutions :
   * [possiblyEquals.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/possiblyEquals.py)
 ---
+
+### Find Smallest Letter Greater Than Target <a name="nextGreatestLetter"></a>
+#### Challenge :
+Given a characters array letters that is sorted in non-decreasing order and a character target, return the smallest character in the array that is larger than target.
+
+Note that the letters wrap around.
+
+For example, if target == 'z' and letters == ['a', 'b'], the answer is 'a'.
+#### Solutions :
+  * [nextGreatestLetter1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/nextGreatestLetter1.py)
+  * [nextGreatestLetter2.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/nextGreatestLetter2.py)
+  * [nextGreatestLetter3.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/nextGreatestLetter3.py)
+---
