@@ -35,6 +35,7 @@ Programming Challenges and Solutions for Fun
 |[Count Number of Maximum Bitwise-OR Subsets](#countMaxOrSubsets)|[Simple Bank System](#SimpleBankSystem)|[Number of Valid Words in a Sentence](#countValidWords)|[Next Greater Numerically Balanced Number](#nextBeautifulNumber)|
 |[Check if an Original String Exists Given Two Encoded Strings](#)|[-](#)|[-](#)|[-](#)|
 |[-](#possiblyEquals)|[Minimum Operations to Convert Number](#minimumOperations)|[Find the Minimum and Maximum Number of Nodes Between Critical Points](#nodesBetweenCriticalPoints)|[Smallest Index With Equal Value](#smallestEqual)|
+|[Find Smallest Letter Greater Than Target](#isPerfectSquare)|[Find Smallest Letter Greater Than Target](#nextGreatestLetter)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 ### linked lists Intersection <a name="linkedlistsIntersection"></a>
 ---
@@ -1624,4 +1625,13 @@ For example, if target == 'z' and letters == ['a', 'b'], the answer is 'a'.
   * [nextGreatestLetter1.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/nextGreatestLetter1.py)
   * [nextGreatestLetter2.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/nextGreatestLetter2.py)
   * [nextGreatestLetter3.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/nextGreatestLetter3.py)
+---
+
+### Find Smallest Letter Greater Than Target <a name="isPerfectSquare"></a>
+#### Challenge :
+Given a positive integer num, write a function which returns True if num is a perfect square else False.
+
+Follow up: Do not use any built-in library function such as sqrt.
+#### Solutions :
+  * [isPerfectSquare.py](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/python/isPerfectSquare.py)
 ---
