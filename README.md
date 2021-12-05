@@ -28,7 +28,7 @@ Programming Challenges and Solutions for Fun
 |[Minimize the Difference Between Target and Chosen Elements](#minimizeTheDifference)|[Find Greatest Common Divisor of Array](#findGCD)|[Reverse First k Elements of Queue](#reverseKelements)|[Check Permutation](#checkPermutation)|
 |[Find the last true](#lastTrue)|[Rotate Matrix](#RotateMatrix)|[Zigzag Traversal](#ZigzagTraversal)|[String Compression](#StringCompression)|
 |[Reverse the order of words](#Reversewords)|[URLify](#URLify)|[Zero Matrix](#ZeroMatrix)|[Return Kth to Last](#ReturnKth)|
-|[-](#)|[-](#)|[-](#)|[-](#)|
+|[Sum Lists](#SumLists)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 |[-](#)|[-](#)|[-](#)|[-](#)|
 ---
@@ -1267,4 +1267,14 @@ column are set to 0.
 Implement an algorithm to find the kth to last element of a singly linked list.
 #### Solutions :
   * [returnKth2Last.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/returnKth2Last.cpp)
+---
+
+
+### Sum Lists <a name="SumLists"></a>
+#### Challenge :
+You have two numbers represented by a linked list, where each node contains a single
+digit. The digits are stored in reverse order, such that the 1 's digit is at the head of the list. Write a
+function that adds the two numbers and returns the sum as a linked list.
+#### Solutions :
+  * [sumLists.cpp](https://github.com/vikumsw/Algorithms_For_Problem_Solving/blob/master/src/main/C++/sumLists.cpp)
 ---
